@@ -113,7 +113,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
     html {
-    font-size: 16px;
+    font-size: 18px;
     font-variant: none;
     background-color: ${({ theme }) => theme.backgroundColor};
     -webkit-font-smoothing: antialiased;
@@ -133,7 +133,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     width: 100%;
-    font-family: "Source Sans Pro", "Inter Roman", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Teko", "Inter Roman", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     line-height: 1.55;
     max-width: 100%;
     margin: 0px auto;
@@ -157,7 +157,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   h1 {
-    font-family: "Source Sans Pro";
+    font-family: "Teko";
     margin-top: 1rem ;
     font-size: 1.875rem;
     font-weight: 600;
@@ -166,14 +166,18 @@ export const GlobalStyle = createGlobalStyle`
   h2 {
     font-size: 1.5rem;
     font-weight: 500;
-    font-family: "Source Sans Pro";
+    font-family: "Teko";
   }
 
   h3 {
     font-weight: 400;
-    font-family: "Source Sans Pro";
+    font-family: "Teko";
   }
-
+  
+  h4 {
+    font-weight: 400;
+    font-family: "Teko";
+  }
 
 
   #gatsby-focus-wrapper{
@@ -230,6 +234,6 @@ export const GlobalStyle = createGlobalStyle`
       left: 18px;
       height: 100%;
       width: 4px;
-      background: #000;
+      background: #267BEE;
   }
 `

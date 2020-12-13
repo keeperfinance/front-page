@@ -62,7 +62,7 @@ const StyledMiniCardHeader = styled.p`
 `
 
 const StyledMiniCardDesc = styled.p`
-  font-size: 0.825rem;
+  font-size: 1rem;
   line-height: 140%;
   font-weight: 400;
   padding-bottom: 1.5rem;

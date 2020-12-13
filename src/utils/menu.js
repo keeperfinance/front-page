@@ -8,6 +8,11 @@ const menu = [
         description: 'Join keeper and start jobs'
       },
       {
+        name: 'Keeper Swap',
+        link: '/',
+        description: 'Developing '
+      },
+      {
         name: 'Keeper Feed',
         link: '/',
         description: 'Developing '

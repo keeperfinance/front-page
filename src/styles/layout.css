@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Teko:100,200,300,400,500,600,700,800,900&display=swap");
 
 article,
 aside,
@@ -194,7 +194,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: "Source Sans Pro", georgia, serif;
+  font-family: "Teko", georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;

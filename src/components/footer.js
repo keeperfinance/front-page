@@ -107,7 +107,7 @@ const StyledFooterLink = styled.li`
   text-decoration: none;
   margin: 0;
   padding: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   a {
     text-decoration: none;
     color: ${({ theme }) => theme.colors.footLink};

@@ -63,7 +63,7 @@ const StyledBodyTitle = styled.h1`
   max-width: 900px;
   font-weight: 600;
   text-align: center;
-  font-family: 'Source Sans Pro', 'Times New Roman', serif;
+  font-family: 'Teko', 'Times New Roman', serif;
   @media (max-width: 1024px) {
     margin: 0.5rem 0 0.5rem 0;
   }
@@ -91,7 +91,7 @@ const StyledBodyTitle2 = styled.h1`
   overflow-wrap: normal;
   max-width: 900px;
   text-align: center;
-  font-family: 'Source Sans Pro', 'Times New Roman', serif;
+  font-family: 'Teko', 'Times New Roman', serif;
   @media (max-width: 1024px) {
     margin: 0.5rem 0 0.5rem 0;
   }
@@ -119,7 +119,7 @@ const StyledBodyTitle3 = styled.h2`
   overflow-wrap: normal;
   max-width: 900px;
   text-align: center;
-  font-family: 'Source Sans Pro', 'Times New Roman', serif;
+  font-family: 'Teko', 'Times New Roman', serif;
   @media (max-width: 1024px) {
     margin: 0.5rem 0 0.5rem 0;
   }
@@ -241,9 +241,10 @@ const IndexPage = props => {
           <StyledBodyTitle3>Keeper Finance is a decentralized finance protocol that is inspired by job matching protocol Keep2r which is DeFi version 3.0.
           It is designed to be a lite version of Keep2r and is a more flexible and profitable protocol.</StyledBodyTitle3>
           <span>
-            <Button href="https://app.keeper.finance/" target="_blank" rel="noopener noreferrer">Keeper App</Button>
-            <Button href="https://gov.keeper.finance/" target="_blank" rel="noopener noreferrer">Keeper Gov</Button>
-            <Button href="https://feed.keeper.finance/" target="_blank" rel="noopener noreferrer">Keeper Feed</Button>
+            <Button href="https://app.keeper.finance/" rel="noopener noreferrer">Keeper App</Button>
+            <Button href="https://swap.keeper.finance/" rel="noopener noreferrer">Keeper Swap</Button>
+            <Button href="https://gov.keeper.finance/" rel="noopener noreferrer">Keeper Gov</Button>
+            <Button href="https://feed.keeper.finance/" rel="noopener noreferrer">Keeper Feed</Button>
           </span>
         </StyledTitle>
         <SummarySection data={data} />
@@ -317,7 +318,7 @@ const StyledSectionTitle = styled.h1`
   overflow-wrap: normal;
   max-width: 900px;
   text-align: center;
-  font-family: 'Source Sans Pro', 'Inferi Normal', 'Times New Roman', serif;
+  font-family: 'Teko', 'Inferi Normal', 'Times New Roman', serif;
 
   @media (max-width: 960px) {
     width: 100%;
@@ -445,7 +446,7 @@ const SummarySection = props => {
           Read more
         </Button>
          <span>
-          <Button href="https://app.keeper.finance/" target="_blank" rel="noopener noreferrer">Use Keeper Finance App</Button>
+          <Button href="https://app.keeper.finance/" rel="noopener noreferrer">Use Keeper Finance App</Button>
           </span>
       </StyledImgSection>
     </StyledSectionFlex>
@@ -465,7 +466,7 @@ const DeveloperSection = () => {
       <p>A high performance keeper network</p>
     </ColS>
     <ColS>
-      <Button href="/obox" target="_blank" rel="noopener noreferrer"><b>Soon</b></Button>
+      <Button href="/" rel="noopener noreferrer"><b>Soon</b></Button>
       <br />
     </ColS>
     </CardFull>
@@ -474,7 +475,7 @@ const DeveloperSection = () => {
       <StyledSectionTitle>Build with Keeper
        <p>
           <span>
-          <Button href="https://omegaswap.com/" target="_blank" rel="noopener noreferrer">Use keeper finance build future</Button>
+          <Button href="https://app.keeper.finance/" rel="noopener noreferrer">Use Keeper Finance Build Future</Button>
           </span></p>
      </StyledSectionTitle>
 
@@ -486,7 +487,7 @@ const DeveloperSection = () => {
           <ColT>
                 <img src={IConnect} alt="Connect" height="64"/>
                 <h1>Connect a Wallet</h1>
-                <Button href="https://app.keeper.finance/" target="_blank" rel="noopener noreferrer"><b>Connect</b></Button>
+                <Button href="https://app.keeper.finance/" rel="noopener noreferrer"><b>Connect</b></Button>
                 <p>
                 Connect to a wallet (e.g. MetaMask)
                 </p>
@@ -494,7 +495,7 @@ const DeveloperSection = () => {
           <ColT>
                 <img src={IAdd} alt="Add" height="64"/>
                 <h1>Add Bond</h1>
-                <Button href="https://app.keeper.finance/kfi" target="_blank" rel="noopener noreferrer"><b>Add</b></Button>
+                <Button href="https://app.keeper.finance/kfi" rel="noopener noreferrer"><b>Add</b></Button>
                 <p>
                   Add tokens bond
                 </p>
@@ -502,7 +503,7 @@ const DeveloperSection = () => {
           <ColT>
                 <img src={IEarn} alt="Earn" height="64"/>
                 <h1>Start Jobs</h1>
-                <Button href="https://app.keeper.finance/" target="_blank" rel="noopener noreferrer"><b>Start</b></Button>
+                <Button href="https://app.keeper.finance/" rel="noopener noreferrer"><b>Start</b></Button>
                 <p>
                   Claim reward from job list
                 </p>
@@ -571,7 +572,7 @@ const DeveloperSection = () => {
             </ColT>
           </Row>
            <span>
-          <Button href="https://app.keeper.finance/" target="_blank" rel="noopener noreferrer">Use Keeper Finance</Button>
+          <Button href="https://app.keeper.finance/" rel="noopener noreferrer">Use Keeper Finance</Button>
           </span>
       </StyledSectionFlex>
     </>
@@ -626,22 +627,22 @@ const GoalSection = () => {
 
       </StyledGoal>
       <ColT>
-        <img src={Bitcoin} alt="Bitcoin" height="42"/>
+        <img src={Bitcoin} alt="Bitcoin" height="36"/>
       </ColT>
       <ColT>
-        <img src={Btcm} alt="Btcm" height="48"/>
+        <img src={Btcm} alt="Btcm" height="42"/>
       </ColT>
       <ColT>
-        <img src={Bitcoinist} alt="Bitcoinist" height="48"/>
+        <img src={Bitcoinist} alt="Bitcoinist" height="42"/>
       </ColT>
       <ColT>
-        <img src={Ambc} alt="AMBCrypto" height="36"/>
+        <img src={Ambc} alt="AMBCrypto" height="32"/>
       </ColT>
       <ColT>
-        <img src={Coincodex} alt="CoinCodex" height="48"/>
+        <img src={Coincodex} alt="CoinCodex" height="42"/>
       </ColT>
       <ColT>
-        <img src={Newsbtc} alt="NewsBTC" height="48"/>
+        <img src={Newsbtc} alt="NewsBTC" height="42"/>
       </ColT>
     </Row>
     <Row>
