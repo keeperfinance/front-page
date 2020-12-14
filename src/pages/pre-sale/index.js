@@ -278,7 +278,6 @@ const SummarySection = props => {
           <p><b>Decimal:</b> 18</p>
           <p><b>Supply:</b> 2M</p>
           <p><b>Contract:</b> <a href="https://etherscan.io/token/0x4e59DFe7c5D34C498Cfe18f0b6dB10941d6E1A8a" target="_blank" rel="noopener noreferrer">0x4e59DFe7c5D34C498Cfe18f0b6dB10941d6E1A8a</a></p>
-          <p><b>Team allocation:</b> 5%</p>
           <Button href="https://app.bounce.finance/fixed-swap/4851" target="_blank" rel="noopener noreferrer"><b>Join Now</b></Button>
         </h2>
       </CardFull>
