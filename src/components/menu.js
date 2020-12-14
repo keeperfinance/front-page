@@ -147,7 +147,7 @@ const StyledTitle = styled.p`
 `
 
 const StyledDescription = styled.p`
-  font-size: 0.825rem;
+  font-size: 1rem;
   margin: 0;
   padding: 0;
   padding: 0px 0.5rem 0.25rem 0.5rem;

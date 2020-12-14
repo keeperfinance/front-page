@@ -29,7 +29,7 @@ export const theme = darkMode => ({
   footLink: darkMode ? 'afb9c7' : 'afb9c7',
 
   // for setting css on <html>
-  backgroundColor: darkMode ? '#0a0d0d' : '#FFF',
+  backgroundColor: darkMode ? '#131b26' : '#FFF',
 
   modalBackground: darkMode ? 'rgba(0,0,0,0.6)' : 'rgba(0,0,0,0.5)',
   cardBG: darkMode ? 'rgba(255, 255, 255, 0.05)' : 'rgba(0, 0, 0, 0.02)',
@@ -59,13 +59,13 @@ export const theme = darkMode => ({
     blue9: darkMode ? '#C4D9F8' : '#0a0d0d',
 
     grey1: darkMode ? '#0a0d0d' : '#F7F8FA',
-    grey2: darkMode ? '#2C2F36' : '#EDEEF2',
+    grey2: darkMode ? '#1b2738' : '#EDEEF2',
     grey3: darkMode ? '#40444F' : '#CED0D9',
     grey4: darkMode ? '#565A69' : '#888D9B',
     grey5: darkMode ? '#6C7284' : '#6C7284',
     grey6: darkMode ? '#888D9B' : '#565A69',
     grey7: darkMode ? '#CED0D9' : '#40444F',
-    grey8: darkMode ? '#EDEEF2' : '#2C2F36',
+    grey8: darkMode ? '#EDEEF2' : '#1b2738',
     grey9: darkMode ? '#F7F8FA' : '#0a0d0d',
 
     white: '#FFFFFF',
@@ -173,7 +173,7 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     font-family: "Teko";
   }
-  
+
   h4 {
     font-weight: 400;
     font-family: "Teko";
