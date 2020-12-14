@@ -6,7 +6,7 @@ import SEO from '../../components/seo'
 import Ticker from '../../components/ticker'
 import BG from '../../components/bg'
 import { Button } from '../../components/button'
-import Dfix from '../../images/logos/dfix.png'
+import Kfi from '../../images/logos/kfi.png'
 import Discord from '../../images/discord.inline.svg'
 import IConnect from '../../images/icons/connect.svg'
 import IAdd from '../../images/icons/add.svg'
@@ -32,7 +32,7 @@ const StyledTitle = styled.div`
   flex-direction: column;
   justify-content: center;
   will-change: transform;
-  margin: 5rem 0 5rem 0;
+  margin: 5rem 0 0 0;
   @media (max-width: 960px) {
     margin: 3rem 0 1rem 0;
   }
@@ -48,7 +48,7 @@ const StyledBodyTitle = styled.h1`
   max-width: 900px;
   font-weight: 600;
   text-align: center;
-  font-family: 'Source Sans Pro', 'Times New Roman', serif;
+  font-family: 'Teko', 'Times New Roman', serif;
   @media (max-width: 1024px) {
     margin: 0.5rem 0 0.5rem 0;
   }
@@ -76,7 +76,7 @@ const StyledBodyTitle2 = styled.h1`
   overflow-wrap: normal;
   max-width: 900px;
   text-align: center;
-  font-family: 'Source Sans Pro', 'Times New Roman', serif;
+  font-family: 'Teko', 'Times New Roman', serif;
   @media (max-width: 1024px) {
     margin: 0.5rem 0 0.5rem 0;
   }
@@ -104,7 +104,7 @@ const StyledBodyTitle3 = styled.h2`
   overflow-wrap: normal;
   max-width: 900px;
   text-align: center;
-  font-family: 'Source Sans Pro', 'Times New Roman', serif;
+  font-family: 'Teko', 'Times New Roman', serif;
   @media (max-width: 1024px) {
     margin: 0.5rem 0 0.5rem 0;
   }
@@ -166,18 +166,16 @@ const IndexPage = props => {
     <Layout path={props.location.pathname}>
       <BG />
       <SEO
-        title="OBOX | DFIX Holders Get pDAI Reward | Omega Staking Box"
+        title="KeeperFi KFI Pre Sale is Live | Keeper Finance"
         path={props.location.pathname}
-        description={'Omega Protocol DeFi Index Asset DFIX Holder Get pDAI Reward, Omega Staking Box Application, DFIX Reward System, O-BOX, Prime DAI pDAI Reward'}
+        description={'KeeperFi KFI Pre Sale is Live, Keeper Finance Tokens Sale is Ongoing, Join Keeper Network KFI Token Sales'}
       />
       <StyledBody>
         <StyledTitle>
-          <StyledBodyTitle>Ǒmega Protocol <br /><b> DeFi Index Asset</b> </StyledBodyTitle>
-          <StyledBodyTitle2>From November 2020 Every Single DFIX Holder will Get a Reward from 2 Million Prime DAI (pDAI) Reward Fund</StyledBodyTitle2>
-          <StyledBodyTitle3>Which will be distributed through smart contract for next 6 months.</StyledBodyTitle3>
+          <StyledBodyTitle>KeeperFi (KFI) Pre Sale is Live</StyledBodyTitle>
+          <StyledBodyTitle2>The Most Advanced DeFi v3.0 Keeper.Finance is Supported by <a href="https://news.bitcoin.com/keeper-finance-defi-version-3-0-a-unique-job-matching-defi-protocol-public-pre-sale-starts/"><b>Bitcoin.com</b></a></StyledBodyTitle2>
           <span>
-            <Button href="https://app.uniswap.org/#/swap?inputCurrency=0x88fbecfef7146242c18d26321b628e9fca6b76dd&outputCurrency=ETH" target="_blank" rel="noopener noreferrer">Buy DFIX</Button>
-            <Button href="https://uniswap.info/pair/0x8fc5ECE957f122362fbF994Ac97B546389f0Dc00" target="_blank" rel="noopener noreferrer">DFIX Liquidity Pool</Button>
+            <Button href="https://app.bounce.finance/fixed-swap/4851" target="_blank" rel="noopener noreferrer">Join the KFI Pre-Sale</Button>
           </span>
         </StyledTitle>
         <SummarySection data={data} />
@@ -196,7 +194,7 @@ const StyledSectionTitle = styled.h1`
   overflow-wrap: normal;
   max-width: 900px;
   text-align: center;
-  font-family: 'Source Sans Pro', 'Inferi Normal', 'Times New Roman', serif;
+  font-family: 'Teko', 'Inferi Normal', 'Times New Roman', serif;
 
   @media (max-width: 960px) {
     width: 100%;
@@ -274,27 +272,27 @@ const SummarySection = props => {
     <RowLeft>
         <CardFull>
         <h2>
-          <p><img src={Dfix} alt="DFIX Logo" height="150"/></p>
-          <p><b>Name:</b> DeFi Index</p>
-          <p><b>Ticker:</b> DFIX</p>
+          <p><img src={Kfi} alt="KFI Logo" height="150"/></p>
+          <p><b>Name:</b> KeeperFi</p>
+          <p><b>Ticker:</b> KFI</p>
           <p><b>Decimal:</b> 18</p>
-          <p><b>Supply:</b> 30,000</p>
-          <p><b>Contract:</b> <a href="https://etherscan.io/token/0x88FBeCfeF7146242C18D26321b628E9FCa6B76dd" target="_blank" rel="noopener noreferrer">0x88FBeCfeF7146242C18D26321b628E9FCa6B76dd</a></p>
+          <p><b>Supply:</b> 2M</p>
+          <p><b>Contract:</b> <a href="https://etherscan.io/token/0x4e59DFe7c5D34C498Cfe18f0b6dB10941d6E1A8a" target="_blank" rel="noopener noreferrer">0x4e59DFe7c5D34C498Cfe18f0b6dB10941d6E1A8a</a></p>
           <p><b>Team allocation:</b> 5%</p>
-          <Button href="https://app.uniswap.org/#/swap?inputCurrency=0x88fbecfef7146242c18d26321b628e9fca6b76dd&outputCurrency=ETH" target="_blank" rel="noopener noreferrer"><b>Buy DFIX</b></Button>
+          <Button href="https://app.bounce.finance/fixed-swap/4851" target="_blank" rel="noopener noreferrer"><b>Join Now</b></Button>
         </h2>
       </CardFull>
       <CardFull>
       <h1>
-        <b> Omega Staking Box Application</b> DFIX Reward System is differ from O-BOX
+        <b> KeeperFi (KFI)</b> Token Tokenomics
       </h1>
-      <p>O-BOX, build on top of Ethereum blockchain operated by smart contracts</p>
-      <p>Details will be published at <a href="https://omgswap.in/obox"><b>O-BOX</b></a> </p>
-      <p>DFI reward mechanism is a very simple but unique mechanism</p>
-      <p>DFI will minted once only 30,000 DFI</p>
-      <p>DFI supply will remain fix forever</p>
-      <p>DFI is not a security, its tradable digital asset</p>
-      <h2><Button href="https://uniswap.info/pair/0x8fc5ECE957f122362fbF994Ac97B546389f0Dc00" target="_blank" rel="noopener noreferrer"><b>DFIX Liquidity Pool</b></Button></h2>
+      <p><b>Total Supply:</b> 2,000,000 KFI</p>
+      <p><b>Presale:</b>  65% KFI </p>
+      <p><b>Liquidity Pool:</b>  10% KFI</p>
+      <p><b>Development:</b>  10% KFI</p>
+      <p><b>Marketing & Promotion:</b>  10% KFI</p>
+      <p><b>Team:</b> 5% KFI (Locked for 6 month)</p>
+      <h2><Button href="https://app.bounce.finance/fixed-swap/4851" target="_blank" rel="noopener noreferrer"><b>Join the KFI Pre Sale</b></Button></h2>
       </CardFull>
     </RowLeft>
     </StyledSectionFlex>
@@ -305,38 +303,38 @@ const DeveloperSection = () => {
   return (
     <>
       <StyledSectionFlex style={{ paddingBottom: '0px', paddingTop: '1rem' }}>
-      <StyledSectionTitle>Get DFIX Rewards
+      <StyledSectionTitle>Keeper Finance dApp is Live!
        <p>
           <span>
-          <Button href="https://omegaswap.com/" target="_blank" rel="noopener noreferrer">Use FlashSwap Full Liquidity</Button>
+          <Button href="https://app.keeper.finance/" target="_blank" rel="noopener noreferrer">Use DeFi v3 Keeper dApp</Button>
           </span></p>
      </StyledSectionTitle>
-          <Row>
-          <ColT>
-                <img src={IConnect} alt="Connect" height="64"/>
-                <h1>Connect</h1>
-                <Button href="http://app.uniswap.org/" target="_blank" rel="noopener noreferrer"><b>Connect</b></Button>
-                <p>
-                Connect to a wallet (e.g. MetaMask)
-                </p>
-          </ColT>
-          <ColT>
-                <img src={IAdd} alt="Add" height="64"/>
-                <h1>DFIX Pool</h1>
-                <Button href="https://app.uniswap.org/#/swap?inputCurrency=0x88fbecfef7146242c18d26321b628e9fca6b76dd&outputCurrency=ETH" target="_blank" rel="noopener noreferrer"><b>Add Liquidity</b></Button>
-                <p>
-                  Add tokens liquidity pools
-                </p>
-          </ColT>
-          <ColT>
-                <img src={IEarn} alt="Earn" height="64"/>
-                <h1>pDAI Reward</h1>
-                <Button href="https://omgswap.in/obox" target="_blank" rel="noopener noreferrer"><b>Get Reward</b></Button>
-                <p>
-                  Claim pDAI for DFIX Holders
-                </p>
-          </ColT>
-          </Row>
+     <Row>
+       <ColT>
+             <img src={IConnect} alt="Connect" height="64"/>
+             <h1>Connect Wallet</h1>
+             <Button href="https://app.keeper.finance/" rel="noopener noreferrer"><b>Connect</b></Button>
+             <p>
+             Connect to a wallet (e.g. MetaMask)
+             </p>
+       </ColT>
+       <ColT>
+             <img src={IAdd} alt="Add" height="64"/>
+             <h1>Add Bond</h1>
+             <Button href="https://app.keeper.finance/kfi" rel="noopener noreferrer"><b>Add</b></Button>
+             <p>
+               Add tokens bond
+             </p>
+       </ColT>
+       <ColT>
+             <img src={IEarn} alt="Earn" height="64"/>
+             <h1>Start Jobs</h1>
+             <Button href="https://app.keeper.finance/" rel="noopener noreferrer"><b>Start</b></Button>
+             <p>
+               Claim reward from job list
+             </p>
+       </ColT>
+     </Row>
       </StyledSectionFlex>
     </>
   )

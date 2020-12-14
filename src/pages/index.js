@@ -461,12 +461,11 @@ const DeveloperSection = () => {
     <CardFull>
     <ColS>
       <h1>
-        <b>KeeperFi (KFI) IEO </b>
+        <b>KeeperFi (KFI) Presale is Live! </b>
       </h1>
-      <p>A high performance keeper network</p>
     </ColS>
     <ColS>
-      <Button href="/" rel="noopener noreferrer"><b>Soon</b></Button>
+      <Button href="https://app.bounce.finance/fixed-swap/4851" rel="noopener noreferrer"><b>Join Now</b></Button>
       <br />
     </ColS>
     </CardFull>
