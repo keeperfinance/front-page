@@ -26,6 +26,8 @@ import Bitcoinist from '../images/partners/bitcoinist.png'
 import Ambc from '../images/partners/ambcrypto.png'
 import Coincodex from '../images/partners/cc.png'
 import Newsbtc from '../images/partners/newsbtc.png'
+import Big from '../images/logos/bigone.png'
+import Kfi from '../images/logos/kfi.png'
 
 const StyledBody = styled.div`
   position: relative;
@@ -47,7 +49,7 @@ const StyledTitle = styled.div`
   flex-direction: column;
   justify-content: center;
   will-change: transform;
-  margin: 5rem 0 5rem 0;
+  margin: 0 0 5rem 0;
   @media (max-width: 960px) {
     margin: 3rem 0 1rem 0;
   }
@@ -179,6 +181,22 @@ const StyledSectionFlex = styled.div`
   }
 `
 
+const StyledTradeLink = styled.a`
+  padding: 0.25rem 0.75rem;
+  background-color: ${({ theme }) => theme.colors.link};
+  text-decoration: none;
+  color: ${({ theme }) => theme.invertedTextColor};
+  border-radius: 12px;
+  display: inline-block;
+  transform: scale(0.98);
+  transition: transform 0.25s ease;
+  font-weight: 400;
+
+  :hover {
+    transform: scale(1);
+  }
+`
+
 const IndexPage = props => {
   const data = useStaticQuery(graphql`
     {
@@ -235,6 +253,19 @@ const IndexPage = props => {
       />
       <StyledBody>
         <StyledTitle>
+            <StyledSectionFlex>
+            <CardHalf>
+            <ColS>
+                <img src={Big} alt="Bigone" height="74" style={{ padding: '4px'}}/> <img src={Kfi} alt="KFI" height="74" style={{ padding: '4px'}}/>
+            </ColS>
+            <ColS>
+              <h2>
+                <b>KeeperFi (KFI) IEO </b>
+              </h2>
+              <StyledTradeLink target="_blank">Dec - Jan</StyledTradeLink>
+            </ColS>
+            </CardHalf>
+            </StyledSectionFlex>
           <StyledBodyTitle2>DeFi v3</StyledBodyTitle2>
           <StyledBodyTitle>Keeper.Finance</StyledBodyTitle>
           <StyledBodyTitle2>An Advanced DeFi Keeper Network</StyledBodyTitle2>
@@ -375,9 +406,31 @@ const CardFull = styled.div`
   padding: 20px;
   color: ${({ theme }) => theme.textColor};
   background-color: ${({ theme }) => theme.cardBG};
-  border: 1px solid ${({ theme }) => theme.colors.grey2};
+  border: 2px solid #267BEE50;
   height: 100%;
   width: 100%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.05), 0px 4px 8px rgba(0,0,0,0.05), 0px 16px 24px rgba(0,0,0,0.05), 0px 24px 32px rgba(0,0,0,0.05);
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    transition: transform 0.3s ease;
+    will-change: transform;
+    @media screen and (max-width: 960px) {
+      margin: 0;
+      flex-direction: column;
+        }
+`
+const CardHalf = styled.div`
+  margin: 20px;
+  padding: 20px;
+  color: ${({ theme }) => theme.textColor};
+  background-color: ${({ theme }) => theme.cardBG};
+  border: 2px solid #267BEE50;
+  height: 100%;
+  width: 50%;
     margin-right: 1rem;
     margin-bottom: 1rem;
     box-shadow: 0px 0px 1px rgba(0,0,0,0.05), 0px 4px 8px rgba(0,0,0,0.05), 0px 16px 24px rgba(0,0,0,0.05), 0px 24px 32px rgba(0,0,0,0.05);
@@ -401,6 +454,17 @@ const Row = styled.div`
   margin-right: 10%;
   text-align: center;
   align-items: center;
+  width: 100%;
+  @media screen and (max-width: 960px) {
+    margin: 0;
+      }
+`
+
+const RowCen = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
   width: 100%;
   @media screen and (max-width: 960px) {
     margin: 0;
@@ -457,7 +521,7 @@ const DeveloperSection = () => {
   return (
     <>
     <StyledSectionFlex>
-    <RowLeft style={{ textAlign: 'center', width: '600px'}}>
+    <RowCen style={{ textAlign: 'center', width: '600px'}}>
     <CardFull>
     <ColS>
       <h1>
@@ -469,7 +533,7 @@ const DeveloperSection = () => {
       <br />
     </ColS>
     </CardFull>
-    </RowLeft>
+    </RowCen>
     </StyledSectionFlex>
       <StyledSectionTitle>Build with Keeper
        <p>

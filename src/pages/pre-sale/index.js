@@ -3,14 +3,14 @@ import styled from 'styled-components'
 import { useStaticQuery, graphql } from 'gatsby'
 import Layout from '../../layouts'
 import SEO from '../../components/seo'
-import Ticker from '../../components/ticker'
+//import Ticker from '../../components/ticker'
 import BG from '../../components/bg'
 import { Button } from '../../components/button'
 import Kfi from '../../images/logos/kfi.png'
-import Discord from '../../images/discord.inline.svg'
 import IConnect from '../../images/icons/connect.svg'
 import IAdd from '../../images/icons/add.svg'
 import IEarn from '../../images/icons/earn.svg'
+import Big from '../../images/logos/bigone.png'
 
 const StyledBody = styled.div`
   position: relative;
@@ -95,36 +95,7 @@ const StyledBodyTitle2 = styled.h1`
   }
 `
 
-const StyledBodyTitle3 = styled.h2`
-  color: ${({ theme }) => theme.colors.link};
-  font-size: 30px;
-  margin: 0.5rem 0 1rem 0;
-  pointer-events: none;
-  white-space: wrap;
-  overflow-wrap: normal;
-  max-width: 900px;
-  text-align: center;
-  font-family: 'Teko', 'Times New Roman', serif;
-  @media (max-width: 1024px) {
-    margin: 0.5rem 0 0.5rem 0;
-  }
-
-  @media (max-width: 960px) {
-    width: 100%;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    margin: 0.5rem 0 0.5rem 0;
-    max-width: 600px;
-  }
-  @media (max-width: 375px) {
-    width: 100%;
-    margin: 0.5rem 0 0.5rem 0;
-    font-weight: 400;
-  }
-`
-
 const StyledSectionFlex = styled.div`
-  padding: 4rem 0;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -150,6 +121,51 @@ const StyledSectionFlex = styled.div`
     margin-bottom: 0.5rem;
   }
 `
+const StyledTradeLink = styled.a`
+  padding: 0.25rem 0.75rem;
+  background-color: ${({ theme }) => theme.colors.link};
+  text-decoration: none;
+  color: ${({ theme }) => theme.invertedTextColor};
+  border-radius: 12px;
+  display: inline-block;
+  transform: scale(0.98);
+  transition: transform 0.25s ease;
+  font-weight: 400;
+
+  :hover {
+    transform: scale(1);
+  }
+`
+const CardHalf = styled.div`
+  margin: 20px;
+  padding: 20px;
+  color: ${({ theme }) => theme.textColor};
+  background-color: ${({ theme }) => theme.cardBG};
+  border: 2px solid #267BEE50;
+  height: 100%;
+  width: 100%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.05), 0px 4px 8px rgba(0,0,0,0.05), 0px 16px 24px rgba(0,0,0,0.05), 0px 24px 32px rgba(0,0,0,0.05);
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    transition: transform 0.3s ease;
+    will-change: transform;
+    @media screen and (max-width: 960px) {
+      margin: 0;
+      flex-direction: column;
+        }
+`
+const ColS = styled.div`
+  flex: 0 0 50%;
+  max-width: 50%;
+  @media screen and (max-width: 900px) {
+      flex: 0 0 100%;
+      max-width: 100%;
+      }
+`
 
 const IndexPage = props => {
   const data = useStaticQuery(graphql`
@@ -171,6 +187,17 @@ const IndexPage = props => {
         description={'KeeperFi KFI Pre Sale is Live, Keeper Finance Tokens Sale is Ongoing, Join Keeper Network KFI Token Sales'}
       />
       <StyledBody>
+      <StyledSectionFlex>
+        <CardHalf>
+          <ColS>
+            <img src={Big} alt="Bigone" height="64" style={{ padding: '4px'}}/> <img src={Kfi} alt="KFI" height="64" style={{ padding: '4px'}}/>
+          </ColS>
+          <ColS>
+              <b>KeeperFi (KFI) IEO </b>
+            <StyledTradeLink target="_blank">Dec - Jan</StyledTradeLink>
+          </ColS>
+        </CardHalf>
+      </StyledSectionFlex>
         <StyledTitle>
           <StyledBodyTitle>KeeperFi (KFI) Pre Sale is Live</StyledBodyTitle>
           <StyledBodyTitle2>The Most Advanced DeFi v3.0 Keeper.Finance is Supported by <a href="https://news.bitcoin.com/keeper-finance-defi-version-3-0-a-unique-job-matching-defi-protocol-public-pre-sale-starts/"><b>Bitcoin.com</b></a></StyledBodyTitle2>
