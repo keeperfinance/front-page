@@ -220,7 +220,7 @@ const EmailSection = () => {
 
     <StyledWordmark />
       <h3>A Concern of Keeper Network Ltd.</h3>
-      <p>Address: 71-75, Shelton Street, Covent Garden, London, WC2H 9JQ, UNITED KINGDOM</p>
+      <p>71-75, Shelton Street, Covent Garden, London, WC2H 9JQ, UNITED KINGDOM</p>
       <p>Support: <a href="mailto:info@keeperfi.com" target="_blank" rel="noopener noreferrer">info@keeperfi.com</a></p>
       <img src={LogoGDPR} alt="GDPR Logo" height="36"/> <img src={LogoEUGDPR} alt="EUGDPR Logo" height="36"/>
     </StyledGoal>

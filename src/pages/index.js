@@ -253,31 +253,31 @@ const IndexPage = props => {
       />
       <StyledBody>
         <StyledTitle>
-            <StyledSectionFlex>
-            <CardHalf>
-            <ColS>
-                <img src={Big} alt="Bigone" height="74" style={{ padding: '4px'}}/> <img src={Kfi} alt="KFI" height="74" style={{ padding: '4px'}}/>
-            </ColS>
-            <ColS>
-              <h2>
-                <b>KeeperFi (KFI) IEO </b>
-              </h2>
-              <StyledTradeLink target="_blank">Dec - Jan</StyledTradeLink>
-            </ColS>
-            </CardHalf>
-            </StyledSectionFlex>
           <StyledBodyTitle2>DeFi v3</StyledBodyTitle2>
           <StyledBodyTitle>Keeper.Finance</StyledBodyTitle>
-          <StyledBodyTitle2>An Advanced DeFi Keeper Network</StyledBodyTitle2>
+          <StyledBodyTitle2>An Advanced Keeper Network</StyledBodyTitle2>
           <StyledBodyTitle3>Keeper Finance is a decentralized finance protocol that is inspired by job matching protocol Keep2r which is DeFi version 3.0.
           It is designed to be a lite version of Keep2r and is a more flexible and profitable protocol.</StyledBodyTitle3>
           <span>
             <Button href="https://app.keeper.finance/" rel="noopener noreferrer">Keeper App</Button>
             <Button href="https://swap.keeper.finance/" rel="noopener noreferrer">Keeper Swap</Button>
-            <Button href="https://gov.keeper.finance/" rel="noopener noreferrer">Keeper Gov</Button>
+            <Button href="https://snapshot.page/#/keeperfi.eth" rel="noopener noreferrer">Keeper Gov</Button>
             <Button href="https://feed.keeper.finance/" rel="noopener noreferrer">Keeper Feed</Button>
           </span>
         </StyledTitle>
+        <StyledSectionFlex>
+        <CardHalf>
+        <ColS>
+            <img src={Big} alt="Bigone" height="74" style={{ padding: '4px'}}/> <img src={Kfi} alt="KFI" height="74" style={{ padding: '4px'}}/>
+        </ColS>
+        <ColS>
+          <h2>
+            <b>KeeperFi (KFI) IEO </b>
+          </h2>
+          <StyledTradeLink target="_blank">Dec - Jan</StyledTradeLink>
+        </ColS>
+        </CardHalf>
+        </StyledSectionFlex>
         <SummarySection data={data} />
         <DeveloperSection data={data} />
         <GoalSection />
@@ -431,7 +431,7 @@ const CardHalf = styled.div`
   background-color: ${({ theme }) => theme.cardBG};
   border: 2px solid #267BEE50;
   height: 100%;
-  width: 50%;
+  width: 100%;
     margin-right: 1rem;
     margin-bottom: 1rem;
     box-shadow: 0px 0px 1px rgba(0,0,0,0.05), 0px 4px 8px rgba(0,0,0,0.05), 0px 16px 24px rgba(0,0,0,0.05), 0px 24px 32px rgba(0,0,0,0.05);

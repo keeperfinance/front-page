@@ -9,8 +9,8 @@ const menu = [
       },
       {
         name: 'Keeper Swap',
-        link: '/',
-        description: 'Developing '
+        link: 'https://swap.keeper.finance/#/',
+        description: 'ERC20 tokens swap exchange'
       },
       {
         name: 'Keeper Feed',
@@ -24,8 +24,7 @@ const menu = [
     sublinks: [
       {
         name: 'Vote',
-        link: '/',
-        description: 'Developing'
+        link: 'https://snapshot.page/#/keeperfi.eth',
       }
     ]
   },
