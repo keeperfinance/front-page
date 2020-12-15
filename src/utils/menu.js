@@ -46,7 +46,7 @@ const menu = [
     sublinks: [
       { name: 'Twitter', link: 'https://twitter.com/KeeperFinance' },
       { name: 'Telegram', link: 'https://t.me/keeperfi' },
-      { name: 'Discord', link: 'https://discord.gg/' },
+      { name: 'Blog', link: '/blog' },
     ]
   },
   {
@@ -54,6 +54,9 @@ const menu = [
     sublinks: [
       { name: 'Blog', link: '/blog', description: 'Stay up to date on Keeper Finance' },
       { name: 'FAQ', link: '/faq', description: 'Frequently Asked Questions' },
+      { name: 'Disclaimer', link: '/disclaimer' },
+      { name: 'Privacy Policy', link: '/privacy-policy' },
+      { name: 'Terms & Conditions', link: '/terms-conditions' },
     ]
   }
 ]

@@ -367,6 +367,7 @@ const StyledSectionTitle = styled.h1`
 const ColT = styled.div`
   flex: 0 0 33.33%;
   max-width: 33.33%;
+  padding: 12px;
   @media screen and (max-width: 900px) {
       flex: 0 0 100%;
       max-width: 100%;
@@ -690,13 +691,17 @@ const GoalSection = () => {
 
       </StyledGoal>
       <ColT>
-        <img src={Bitcoin} alt="Bitcoin" height="36"/>
+        <a href="https://news.bitcoin.com/keeper-finance-defi-version-3-0-a-unique-job-matching-defi-protocol-public-pre-sale-starts/">
+          <img src={Bitcoin} alt="Bitcoin" height="36"/>
+        </a>
+      </ColT>
+      <ColT>
+        <a href="https://news.bitcoin.com/keeper-finance-defi-version-3-0-a-unique-job-matching-defi-protocol-public-pre-sale-starts/">
+          <img src={Bitcoinist} alt="Bitcoinist" height="42"/>
+        </a>
       </ColT>
       <ColT>
         <img src={Btcm} alt="Btcm" height="42"/>
-      </ColT>
-      <ColT>
-        <img src={Bitcoinist} alt="Bitcoinist" height="42"/>
       </ColT>
       <ColT>
         <img src={Ambc} alt="AMBCrypto" height="32"/>
