@@ -44,15 +44,14 @@ const menu = [
   {
     name: 'Community',
     sublinks: [
+      { name: 'Blog', link: '/blog', description: 'Stay up to date on Keeper Finance' },
       { name: 'Twitter', link: 'https://twitter.com/KeeperFinance' },
       { name: 'Telegram', link: 'https://t.me/keeperfi' },
-      { name: 'Blog', link: '/blog' },
     ]
   },
   {
     name: 'About',
     sublinks: [
-      { name: 'Blog', link: '/blog', description: 'Stay up to date on Keeper Finance' },
       { name: 'FAQ', link: '/faq', description: 'Frequently Asked Questions' },
       { name: 'Disclaimer', link: '/disclaimer' },
       { name: 'Privacy Policy', link: '/privacy-policy' },

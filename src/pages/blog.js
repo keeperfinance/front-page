@@ -154,7 +154,7 @@ const Blog = props => {
   return (
     <Layout path={props.location.pathname}>
       <BG />
-      <SEO title="OMGSwap Blog" path={props.location.pathname} />
+      <SEO title="Keeper Finance Blog" path={props.location.pathname} />
 
       <PostsWrapper>
         <h1>Latest Posts</h1>
