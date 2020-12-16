@@ -293,7 +293,7 @@ const RowLeft = styled.div`
       }
 `
 
-const SummarySection = props => {
+const SummarySection = () => {
   return (
     <StyledSectionFlex>
     <RowLeft>

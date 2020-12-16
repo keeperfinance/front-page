@@ -1,10 +1,10 @@
 {
-  "name": "@omgswap/omgswap-v2-site",
+  "name": "@keeperfinance/front-page",
   "private": true,
-  "description": "OMGSwap homepage and knowledgebase",
-  "version": "0.1.1",
-  "homepage": "https://omgswap.in",
-  "author": "Omega Protocol <info@omgswap.in>",
+  "description": "An Advanced Keeper Network",
+  "version": "3.0",
+  "homepage": "https://keeper.finance/",
+  "author": "Keeper <info@keeperfi.com>",
   "node": "12.18.3",
   "dependencies": {
     "@apollo/react-hooks": "^3.1.3",

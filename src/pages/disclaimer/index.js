@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { useStaticQuery, graphql } from 'gatsby'
 import Layout from '../../layouts'
 import SEO from '../../components/seo'
 //import Ticker from '../../components/ticker'
@@ -21,15 +20,6 @@ const StyledBody = styled.div`
 `
 
 const IndexPage = props => {
-  const data = useStaticQuery(graphql`
-    {
-      site {
-        siteMetadata {
-          siteUrl
-        }
-      }
-    }
-  `)
 
   return (
     <Layout path={props.location.pathname}>

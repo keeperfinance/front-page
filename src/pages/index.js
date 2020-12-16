@@ -254,7 +254,7 @@ const IndexPage = props => {
       <StyledBody>
         <StyledTitle>
           <StyledBodyTitle2>DeFi v3</StyledBodyTitle2>
-          <StyledBodyTitle>Keeper.Finance</StyledBodyTitle>
+          <StyledBodyTitle>Keeper Finance</StyledBodyTitle>
           <StyledBodyTitle2>An Advanced Keeper Network</StyledBodyTitle2>
           <StyledBodyTitle3>Keeper Finance is a decentralized finance protocol that is inspired by job matching protocol Keep2r which is DeFi version 3.0.
           It is designed to be a lite version of Keep2r and is a more flexible and profitable protocol.</StyledBodyTitle3>
@@ -464,19 +464,6 @@ const Row = styled.div`
 const RowCen = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin-left: 10%;
-  margin-right: 10%;
-  width: 100%;
-  @media screen and (max-width: 960px) {
-    margin: 0;
-      }
-`
-
-const RowLeft = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
   margin-left: 10%;
   margin-right: 10%;
   width: 100%;

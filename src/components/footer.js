@@ -2,7 +2,6 @@ import { Link } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
 import { useStaticQuery, graphql } from 'gatsby'
-import Uni from '../images/uni.inline.svg'
 import Wordmark from '../images/wordmark.inline.svg'
 // import { ThemeManagerContext } from '../styles/themeManager'
 import LogoGDPR from '../images/logos/gdpr.jpg'
@@ -182,21 +181,6 @@ const Footer = () => {
 }
 export default Footer
 
-const StyledUni = styled(Uni)`
-  path {
-    fill: ${({ theme }) => theme.colors.link};
-  }
-  margin: 0;
-  width: 42px;
-  height: 42px;
-  margin-right: 0.35rem;
-  margin-top: 4px;
-  transform: rotate(0deg);
-  transition: transform 0.2s linear;
-  :hover {
-    transform: rotate(-10deg);
-  }
-`
 
 const StyledWordmark = styled(Wordmark)`
   margin: 0;

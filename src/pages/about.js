@@ -9,7 +9,6 @@ import BG from '../components/bg'
 import scrollTo from 'gatsby-plugin-smoothscroll'
 
 import MiniCard from '../components/minicard'
-import Discord from '../images/discord.inline.svg'
 
 const StyledAbout = styled.div`
   display: grid;
@@ -185,13 +184,13 @@ const About = props => {
           <StyledSectionFlex id="about" style={{ flexDirection: 'column' }}>
             <Title style={{ width: '100%' }}>About</Title>
             <p>
-              The OMGSwap protocol is developed by a small team in Brooklyn, NY alongside collaborators all across the
+              The Keeper Finance is developed by a small team in Brooklyn, NY alongside collaborators all across the
               world.
             </p>
             <p>We are committed to open source software and building on the decentralized web.</p>
             <p>
-              You can read about how OMGSwap got started
-              <Link to="/blog/omgswap-history/"> here.</Link>
+              You can read about how Keeper Finance got started
+              <Link to="/blog/"> here.</Link>
             </p>
           </StyledSectionFlex>
 
@@ -219,7 +218,7 @@ const About = props => {
               </a>
             </span>
             <p>
-              OMGSwap welcomes all qualified persons to apply regardless of race, religion, gender, gender identity or
+              Keeper Finance welcomes all qualified persons to apply regardless of race, religion, gender, gender identity or
               expression, sexual orientation, national origin, genetics, disability, age, or veteran status.
               Compensation will be competitive and commensurate with experience. This is a full time role which includes
               health insurance and other benefits.
@@ -229,19 +228,19 @@ const About = props => {
           <StyledSectionFlex id="contact" style={{ flexDirection: 'column' }}>
             <h1 style={{ width: '100%' }}>Contact</h1>
             <p>
-              To get in touch, please email <a href="mailto:info@omgswap.in">info@omgswap.in</a>
+              To get in touch, please email <a href="mailto:info@keeperfi.com">info@keeperfi.com</a>
             </p>
 
             <p>
               As a small team <strong>we are unable to offer support</strong> in most cases but encourage anyone facing
-              issues with their wallet, transaction or OMGSwap related question to join our active community discord.
+              issues with their wallet, transaction or Keeper Finance related question to join our active community discord.
             </p>
           </StyledSectionFlex>
           <StyledSectionFlex id="community" style={{ paddingTop: '2rem' }}>
             <h1 style={{ width: '100%' }}>Community</h1>
             <div style={{ display: 'flex', flexWrap: 'wrap' }}>
               <MiniCard
-                href="https://t.me/omegadefi"
+                href="https://t.me/keeperfi"
                 title={'Telegram'}
                 small
                 image={data.discord.childImageSharp.fluid}
@@ -250,29 +249,20 @@ const About = props => {
                 backgroundColor={'#7289da'}
               />
               <MiniCard
-                href="https://discord.gg/cFysPu"
-                title={'Discord'}
-                small
-                image={data.discord.childImageSharp.fluid}
-                desc={'Real time discussion.'}
-                color={'white'}
-                backgroundColor={'#7289da'}
-              />
-              <MiniCard
-                href="https://twitter.com/omegadefi"
+                href="https://twitter.com/KeeperFinance"
                 title={'Twitter'}
                 small
                 image={data.twitter.childImageSharp.fluid}
-                desc={'Updates from the OMGSwap team.'}
+                desc={'Updates from the Keeper Finance team.'}
                 backgroundColor={'#B0D8F0'}
                 color={'black'}
               />
               <MiniCard
-                href="https://www.reddit.com/r/omegadefi"
-                title={'Reddit'}
+                href="https://github.com/keeperfinance"
+                title={'Github'}
                 small
                 image={data.reddit.childImageSharp.fluid}
-                desc={'Slow form discussion'}
+                desc={'Updates about keeper'}
                 backgroundColor={'white'}
                 color={'black'}
               />
@@ -282,7 +272,7 @@ const About = props => {
           <StyledSectionFlex id="brand" style={{ flexDirection: 'column' }}>
             <h1 style={{ width: '100%' }}>Brand Assets</h1>
             <p>
-              Download the logo and other brand assets samples <a href="/OMGSwap_brand_assets.zip">here</a>.
+              Download the logo and other brand assets samples <a href="/keeper_brand_assets.zip">here</a>.
             </p>
           </StyledSectionFlex>
         </span>
