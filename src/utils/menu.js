@@ -34,7 +34,6 @@ const menu = [
       {
         name: 'Documentation',
         link: 'https://docs.keeper.finance/',
-        description: 'Comprehensive smart contract and frontend integration docs'
       },
       { name: 'Registry', link: 'https://docs.keeper.finance/registry' },
       { name: 'Github', link: 'https://github.com/keeperfinance' },
@@ -51,7 +50,7 @@ const menu = [
   {
     name: 'About',
     sublinks: [
-      { name: 'FAQ', link: '/faq', description: 'Frequently Asked Questions' },
+      { name: 'How to use', link: '/how-to-use', description: 'How to use Keeper Network' },
       { name: 'Disclaimer', link: '/disclaimer' },
       { name: 'Privacy Policy', link: '/privacy-policy' },
       { name: 'Terms & Conditions', link: '/terms-conditions' },

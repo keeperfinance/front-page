@@ -163,7 +163,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
     font-family: "Teko";
   }

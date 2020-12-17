@@ -9,13 +9,14 @@ import { TrendingUp, Box, Upload, Layers, Star } from 'react-feather'
 import 'react-vertical-timeline-component/style.min.css'
 //import Ticker from '../components/ticker'
 import BG from '../components/bg'
-//import MiniCard from '../components/minicard'
+import MiniCard from '../components/minicard'
 import Wizard from '../components/wizard'
 import { Button } from '../components/button'
 //import Discord from '../images/discord.inline.svg'
 import IConnect from '../images/icons/connect.svg'
 import IAdd from '../images/icons/add.svg'
 import IEarn from '../images/icons/earn.svg'
+import Bigone from '../images/exchanges/bigone.svg'
 import Digifinex from '../images/exchanges/dgfinex.png'
 import Hotbit from '../images/exchanges/hotbit.png'
 import Inch from '../images/exchanges/1inch.png'
@@ -49,7 +50,7 @@ const StyledTitle = styled.div`
   flex-direction: column;
   justify-content: center;
   will-change: transform;
-  margin: 0 0 5rem 0;
+  margin: 2rem 0 5rem 0;
   @media (max-width: 960px) {
     margin: 3rem 0 1rem 0;
   }
@@ -219,21 +220,21 @@ const IndexPage = props => {
           }
         }
       }
-      info: file(relativePath: { eq: "dex.png" }) {
+      keeper: file(relativePath: { eq: "keeper.png" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      coinex: file(relativePath: { eq: "coinex.png" }) {
+      gov: file(relativePath: { eq: "gov.png" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      socks: file(relativePath: { eq: "info.png" }) {
+      soon: file(relativePath: { eq: "soon.png" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {
             ...GatsbyImageSharpFluid
@@ -249,7 +250,7 @@ const IndexPage = props => {
       <SEO
         title="KeeperFi KFI - DeFi v3 Keeper Network"
         path={props.location.pathname}
-        description={'KeeperFi is An Advanced DeFi Keeper Network, Keeper Finance is Working on Decentralized Keeper Network System, Bonds, Jobs, Vote, KFI Keep2r Lite'}
+        description={'Keeper Finance is An Advanced Keeper Network, It is version of DeFi v3, Keep2r Lite. KeeperFi is Working on Decentralized Keeper Network, Bonds, Jobs, Governance, KFI'}
       />
       <StyledBody>
         <StyledTitle>
@@ -280,6 +281,7 @@ const IndexPage = props => {
         </StyledSectionFlex>
         <SummarySection data={data} />
         <DeveloperSection data={data} />
+        <ProductsSection2 data={data} />
         <GoalSection />
       </StyledBody>
     </Layout>
@@ -388,7 +390,7 @@ const Card = styled.div`
   color: ${({ theme }) => theme.textColor};
   background-color: ${({ theme }) => theme.cardBG};
   border: 1px solid ${({ theme }) => theme.colors.grey2};
-  height: 180px;
+  height: 150px;
     max-width: 100%;
     min-width: 45%;
     margin-right: 1rem;
@@ -649,6 +651,41 @@ const StyledGoal = styled.div`
   }
 `
 
+const ProductsSection2 = props => {
+  return (
+    <>
+      <StyledSectionFlex style={{ paddingBottom: '0px' }}>
+        <StyledGoal style={{ width: '100%' }}>
+          <h1>Keeper Finance Products</h1>
+        </StyledGoal>
+      </StyledSectionFlex>
+      <StyledSectionFlex wrapSmall={false} style={{ paddingTop: '2rem' }}>
+        <MiniCard
+          href="https://app.keeper.finance/" target="_blank" rel="noopener noreferrer"
+          image={props.data.keeper.childImageSharp.fluid}
+          desc={'Keeper App'}
+          backgroundColor={'#267bee'}
+          color={'white'}
+        />
+        <MiniCard
+          href="https://swap.keeper.finance/" target="_blank" rel="noopener noreferrer"
+          image={props.data.swap.childImageSharp.fluid}
+          desc={'Keeper Swap'}
+          backgroundColor={'#267bee'}
+          color={'white'}
+        />
+        <MiniCard
+          href="https://gov.keeper.finance/" target="_blank" rel="noopener noreferrer"
+          image={props.data.gov.childImageSharp.fluid}
+          desc={'Keeper Governance'}
+          backgroundColor={'#267bee'}
+          color={'white'}
+        />
+      </StyledSectionFlex>
+    </>
+  )
+}
+
 const GoalSection = () => {
   return (
     <StyledSectionFlex>
@@ -657,7 +694,9 @@ const GoalSection = () => {
       <h1>Our Exchange Partners</h1>
 
     </StyledGoal>
-
+        <ColT>
+          <img src={Bigone} alt="Bigone" height="48"/>
+        </ColT>
         <ColT>
           <img src={Digifinex} alt="Digifinex" height="48"/>
         </ColT>
