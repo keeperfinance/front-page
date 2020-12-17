@@ -269,7 +269,7 @@ const IndexPage = props => {
         <StyledSectionFlex>
         <CardHalf>
         <ColS>
-            <img src={Big} alt="Bigone" height="74" style={{ padding: '4px'}}/> <img src={Kfi} alt="KFI" height="74" style={{ padding: '4px'}}/>
+            <img src={Big} alt="Bigone" height="70" style={{ padding: '4px'}}/> <img src={Kfi} alt="KFI" height="70" style={{ padding: '4px'}}/>
         </ColS>
         <ColS>
           <h2>
