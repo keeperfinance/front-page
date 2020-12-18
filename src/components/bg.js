@@ -48,7 +48,7 @@ const StyledBG = styled.div`
   left: 0;
   width: 100%;
   overflow: hidden;
-  background: linear-gradient(rgba(26,30,33,.7),rgba(26,30,33,.3)),url(../ft-img.jpg) repeat-x fixed;
+  background: linear-gradient(rgba(10,13,41,.7),rgba(10,13,41,.05)),url(/ft-img.jpg) repeat-x;
   -webkit-transform: translate3d(0, 0, 0);
 `
 
@@ -63,7 +63,7 @@ const StyledNoise = styled(BackgroundImage)`
   background-size: auto;
   background-position: center;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
 `
 
 const BG = () => {
