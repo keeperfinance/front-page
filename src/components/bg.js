@@ -26,8 +26,6 @@ const StyledRed = styled.div`
   width: 100%;
   height: 150vh;
   border-radius: 10vw;
-  background: ${({ theme }) =>
-    `radial-gradient(50% 50% at 50% 50%, ${theme.colors.link} 0%, ${theme.backgroundColor} 100%)`};
   position: absolute;
   top: 0px;
   left: 0px;
@@ -50,7 +48,7 @@ const StyledBG = styled.div`
   left: 0;
   width: 100%;
   overflow: hidden;
-  background-color: ${({ theme }) => theme.backgroundColor};
+  background: linear-gradient(rgba(10,13,41,.7),rgba(10,13,41,.05)),url(/ft-img.jpg) repeat-x;
   -webkit-transform: translate3d(0, 0, 0);
 `
 
@@ -65,7 +63,7 @@ const StyledNoise = styled(BackgroundImage)`
   background-size: auto;
   background-position: center;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
 `
 
 const BG = () => {

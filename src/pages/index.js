@@ -50,14 +50,18 @@ const StyledTitle = styled.div`
   flex-direction: column;
   justify-content: center;
   will-change: transform;
-  margin: 2rem 0 5rem 0;
-  @media (max-width: 960px) {
-    margin: 3rem 0 1rem 0;
+  margin: 4rem 0 7rem 0;
+  @media (max-width: 640px) {
+    margin: 6rem 0 8rem 0;
+  }
+  @media (max-width: 359px) {
+    margin: 1rem 0 4rem 0;
   }
 `
 
+
 const StyledBodyTitle = styled.h1`
-  color: ${({ theme }) => theme.colors.link};
+  color: #FFF;
   font-size: 112px;
   margin: 0.5rem 0 0.5rem 0;
   pointer-events: none;
@@ -86,7 +90,7 @@ const StyledBodyTitle = styled.h1`
 `
 
 const StyledBodyTitle2 = styled.h1`
-  color: ${({ theme }) => theme.colors.link};
+  color: #FFF;
   font-size: 48px;
   margin: 0.5rem 0 0.5rem 0;
   pointer-events: none;
@@ -114,7 +118,7 @@ const StyledBodyTitle2 = styled.h1`
 `
 
 const StyledBodyTitle3 = styled.h2`
-  color: ${({ theme }) => theme.colors.link};
+  color: #FFF;
   font-size: 24px;
   margin: 0.5rem 0 1rem 0;
   pointer-events: none;
