@@ -185,8 +185,8 @@ export default Footer
 const StyledWordmark = styled(Wordmark)`
   margin: 0;
   margin-top: 6px;
-  /* height: 23px;
-  width: 200px; */
+  height: 48px;
+  width: 260px;
 `
 
 const StyledGoal = styled.div`

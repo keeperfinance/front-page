@@ -337,7 +337,7 @@ const MiniNewInfo = styled(Link)`
 
   @media (max-width: 960px) {
     position: relative;
-    max-width: 475px;
+    max-width: 450px;
     width: 100%;
     height: 100%;
     margin: 4rem 0;
@@ -747,13 +747,13 @@ const GoalSection = () => {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgba(38 123 238)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgba(38 123 238)' }}
+            contentStyle={{ background: 'rgba(123, 129, 138, 0.1)', color: 'rgba(115 128 146)', borderRadius: '20px', boxShadow: 'none' }}
+            contentArrowStyle={{ borderRight: '7px solid rgba(123, 129, 138, 0.1)' }}
             date="2020 Q4"
-            iconStyle={{ background: 'rgba(38 123 238)', color: '#fff' }}
+            iconStyle={{ background: 'rgba(123, 129, 138)', color: '#fff' }}
             icon={<TrendingUp />}
           >
-            <h3 className="vertical-timeline-element-title">Development</h3>
+            <h1 className="vertical-timeline-element-title">Development</h1>
               <p>
                 Planning and development
               </p>
@@ -769,13 +769,13 @@ const GoalSection = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgba(38 123 238)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgba(38 123 238)' }}
+            contentStyle={{ background: 'rgba(123, 129, 138, 0.1)', color: 'rgba(115 128 146)', borderRadius: '20px', boxShadow: 'none' }}
+            contentArrowStyle={{ borderRight: '7px solid  rgba(123, 129, 138, 0.1)' }}
             date="2021 Q1"
-            iconStyle={{ background: 'rgba(38 123 238)', color: '#fff' }}
+            iconStyle={{ background: 'rgba(123, 129, 138)', color: '#fff' }}
             icon={<Box />}
           >
-            <h3 className="vertical-timeline-element-title">Deployment</h3>
+            <h1 className="vertical-timeline-element-title">Deployment</h1>
               <p>
                 Deploy scaling chainlink
               </p>
@@ -788,13 +788,13 @@ const GoalSection = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgba(38 123 238)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgba(38 123 238)' }}
+            contentStyle={{ background: 'rgba(123, 129, 138, 0.1)', color: 'rgba(115 128 146)', borderRadius: '20px', boxShadow: 'none' }}
+            contentArrowStyle={{ borderRight: '7px solid  rgba(123, 129, 138, 0.1)' }}
             date="2021 Q2"
-            iconStyle={{ background: 'rgba(38 123 238)', color: '#fff' }}
+            iconStyle={{ background: 'rgba(123, 129, 138)', color: '#fff' }}
             icon={<Upload />}
           >
-            <h3 className="vertical-timeline-element-title">Upgradement</h3>
+            <h1 className="vertical-timeline-element-title">Upgradement</h1>
               <p>
                 Keeperfi app upgrade
               </p>
@@ -804,13 +804,13 @@ const GoalSection = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgba(38 123 238)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgba(38 123 238)' }}
+            contentStyle={{ background: 'rgba(123, 129, 138, 0.1)', color: 'rgba(115 128 146)', borderRadius: '20px', boxShadow: 'none' }}
+            contentArrowStyle={{ borderRight: '7px solid  rgba(123, 129, 138, 0.1)' }}
             date="2021 Q3"
-            iconStyle={{ background: 'rgba(38 123 238)', color: '#fff' }}
+            iconStyle={{ background: 'rgba(123, 129, 138)', color: '#fff' }}
             icon={<Layers />}
           >
-            <h3 className="vertical-timeline-element-title">New Platform</h3>
+            <h1 className="vertical-timeline-element-title">New Platform</h1>
               <p>
                 Launch new version app
               </p>

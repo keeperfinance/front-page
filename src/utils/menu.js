@@ -13,18 +13,14 @@ const menu = [
         description: 'ERC20 tokens swap exchange'
       },
       {
+        name: 'Keeper Governance',
+        link: 'https://snapshot.page/#/keeperfi.eth',
+        description: 'Vote the'
+      },
+      {
         name: 'Keeper Feed',
         link: '/',
         description: 'Developing '
-      }
-    ]
-  },
-  {
-    name: 'Governance',
-    sublinks: [
-      {
-        name: 'Vote',
-        link: 'https://snapshot.page/#/keeperfi.eth',
       }
     ]
   },

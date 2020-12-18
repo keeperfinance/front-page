@@ -29,7 +29,7 @@ export const theme = darkMode => ({
   footLink: darkMode ? 'afb9c7' : 'afb9c7',
 
   // for setting css on <html>
-  backgroundColor: darkMode ? '#131b26' : '#FFF',
+  backgroundColor: darkMode ? '#10161E' : '#FFF',
 
   modalBackground: darkMode ? 'rgba(0,0,0,0.6)' : 'rgba(0,0,0,0.5)',
   cardBG: darkMode ? 'rgba(255, 255, 255, 0.05)' : 'rgba(0, 0, 0, 0.02)',
