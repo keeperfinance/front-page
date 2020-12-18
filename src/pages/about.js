@@ -184,7 +184,7 @@ const About = props => {
           <StyledSectionFlex id="about" style={{ flexDirection: 'column' }}>
             <Title style={{ width: '100%' }}>About</Title>
             <p>
-              The Keeper Finance is developed by a small team in Brooklyn, NY alongside collaborators all across the
+              The Keeper Finance is developed by a small team, alongside collaborators all across the
               world.
             </p>
             <p>We are committed to open source software and building on the decentralized web.</p>

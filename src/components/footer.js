@@ -58,7 +58,7 @@ const StyledSection = styled.section`
 `
 const StyledSectionDis = styled.section`
   fontSize: 12px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;

@@ -14,13 +14,13 @@ const menu = [
       },
       {
         name: 'Keeper Governance',
-        link: 'https://snapshot.page/#/keeperfi.eth',
-        description: 'Vote the'
+        link: 'https://gov.keeper.finance',
+        description: 'Voting governance'
       },
       {
         name: 'Keeper Feed',
-        link: '/',
-        description: 'Developing '
+        link: 'https://feed.keeper.finance',
+        description: 'Oracle data feed'
       }
     ]
   },
@@ -30,6 +30,10 @@ const menu = [
       {
         name: 'Documentation',
         link: 'https://docs.keeper.finance/',
+      },
+      { name: 'Quick Start',
+        link: '/how-to-start', 
+        description: 'How to use Keeper Network' 
       },
       { name: 'Registry', link: 'https://docs.keeper.finance/registry' },
       { name: 'Github', link: 'https://github.com/keeperfinance' },
@@ -46,7 +50,6 @@ const menu = [
   {
     name: 'About',
     sublinks: [
-      { name: 'How to use', link: '/how-to-use', description: 'How to use Keeper Network' },
       { name: 'Disclaimer', link: '/disclaimer' },
       { name: 'Privacy Policy', link: '/privacy-policy' },
       { name: 'Terms & Conditions', link: '/terms-conditions' },

@@ -25,11 +25,11 @@ export const theme = darkMode => ({
   invertedTextColor: darkMode ? '#010101' : white,
   greyText: darkMode ? white : '#6C7284',
   footText: darkMode ? '#c2ccda' : '#c2ccda',
-  footBg: darkMode ? '#131518' : '#131518',
+  footBg: darkMode ? '#050A12' : '#131518',
   footLink: darkMode ? 'afb9c7' : 'afb9c7',
 
   // for setting css on <html>
-  backgroundColor: darkMode ? '#10161E' : '#FFF',
+  backgroundColor: darkMode ? '#1B2637' : '#FFF',
 
   modalBackground: darkMode ? 'rgba(0,0,0,0.6)' : 'rgba(0,0,0,0.5)',
   cardBG: darkMode ? 'rgba(255, 255, 255, 0.05)' : 'rgba(0, 0, 0, 0.02)',
@@ -48,12 +48,12 @@ export const theme = darkMode => ({
   doveGray: darkMode ? '#C4C4C4' : '#737373',
 
   colors: {
-    blue1: darkMode ? '#267BEF' : '#D4E4FA',
-    blue2: darkMode ? '#1966D2' : '#A9C8F5',
-    blue3: darkMode ? '#165BBB' : '#7DACF0',
-    blue4: darkMode ? '#2D47A6' : '#5190EB',
-    blue5: darkMode ? '#C4D9F8' : '#2172E5',
-    blue6: darkMode ? '#C4D9F8' : '#1A5BB6',
+    blue1: darkMode ? '#1377B8' : '#D4E4FA',
+    blue2: darkMode ? '#A9C8F5' : '#A9C8F5',
+    blue3: darkMode ? '#1377B8' : '#7DACF0',
+    blue4: darkMode ? '#1377B8' : '#5190EB',
+    blue5: darkMode ? '#1377B8' : '#2172E5',
+    blue6: darkMode ? '#1377B8' : '#1A5BB6',
     blue7: darkMode ? '#C4D9F8' : '#144489',
     blue8: darkMode ? '#C4D9F8' : '#0E2F5E',
     blue9: darkMode ? '#C4D9F8' : '#0a0d0d',
@@ -113,12 +113,12 @@ export const GlobalStyle = createGlobalStyle`
   }
 
     html {
-    font-size: 18px;
+    font-size: 16px;
     font-variant: none;
     background-color: ${({ theme }) => theme.backgroundColor};
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.8);
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     background-size: contain;

@@ -47,8 +47,7 @@ const IndexPage = props => {
       <h1>Disclaimer</h1>
       <p>The information contained on the Service is for general information purposes only.</p>
       <p>The Company assumes no responsibility for errors or omissions in the contents of the Service.</p>
-      <p>In no event shall the Company be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in connection with the use of the Service or the contents of the Service. The Company reserves the right to make additions, deletions, or modifications to the contents on the Service at any time without prior notice. This Disclaimer has been created with the help of the <a href="https://www.privacypolicies.com/disclaimer-generator/">Disclaimer Generator</a>.</p>
-      <p>The Company does not warrant that the Service is free of viruses or other harmful components.</p>
+      <p>In no event shall the Company be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in connection with the use of the Service or the contents of the Service. The Company reserves the right to make additions, deletions, or modifications to the contents on the Service at any time without prior notice.</p>
       <h1>External Links Disclaimer</h1>
       <p>The Service may contain links to external websites that are not provided or maintained by or in any way affiliated with the Company.</p>
       <p>Please note that the Company does not guarantee the accuracy, relevance, timeliness, or completeness of any information on these external websites.</p>
