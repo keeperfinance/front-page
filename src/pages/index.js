@@ -38,7 +38,7 @@ const StyledBody = styled.div`
   align-items: center;
   padding-bottom: 4rem;
   margin-bottom: 4rem;
-  border-bottom: 1px solid ${({ theme }) => theme.colors.grey2};
+  border-bottom: 2px solid ${({ theme }) => theme.colors.grey2};
   @media (max-width: 375px) {
     margin-bottom: 2rem;
   }
@@ -58,7 +58,7 @@ const StyledTitle = styled.div`
 
 const StyledBodyTitle = styled.h1`
   color: ${({ theme }) => theme.colors.link};
-  font-size: 112px;
+  font-size: 66px;
   margin: 0.5rem 0 0.5rem 0;
   pointer-events: none;
   white-space: wrap;
@@ -87,7 +87,7 @@ const StyledBodyTitle = styled.h1`
 
 const StyledBodyTitle2 = styled.h1`
   color: ${({ theme }) => theme.colors.link};
-  font-size: 48px;
+  font-size: 28px;
   margin: 0.5rem 0 0.5rem 0;
   pointer-events: none;
   white-space: wrap;
@@ -115,7 +115,7 @@ const StyledBodyTitle2 = styled.h1`
 
 const StyledBodyTitle3 = styled.h2`
   color: ${({ theme }) => theme.colors.link};
-  font-size: 24px;
+  font-size: 22px;
   margin: 0.5rem 0 1rem 0;
   pointer-events: none;
   white-space: wrap;
@@ -147,7 +147,7 @@ const StyledUnicornImage = styled(Img)`
   min-width: 450px;
   background-color: none;
   margin-top: 1rem;
-  border-radius: 20px;
+  border-radius: 26px;
   box-shadow: ${({ theme }) => theme.shadows.huge};
   @media (max-width: 960px) {
     min-width: unset;
@@ -187,7 +187,7 @@ const StyledTradeLink = styled.a`
   background-color: ${({ theme }) => theme.colors.link};
   text-decoration: none;
   color: ${({ theme }) => theme.invertedTextColor};
-  border-radius: 12px;
+  border-radius: 22px;
   display: inline-block;
   transform: scale(0.98);
   transition: transform 0.25s ease;
@@ -248,21 +248,20 @@ const IndexPage = props => {
     <Layout path={props.location.pathname}>
       <BG />
       <SEO
-        title="KeeperFi KFI - DeFi v3 Keeper Network"
+        title="An Advance DeFi v3.0 Keeper Network Protocol"
         path={props.location.pathname}
-        description={'Keeper Finance is An Advanced Keeper Network, It is version of DeFi v3, Keep2r Lite. KeeperFi is Working on Decentralized Keeper Network, Bonds, Jobs, Governance, KFI'}
+        description={'Keeper Finance is An Advanced Keeper Network. It is DeFi v3. Keeper Finance is Working on Decentralized Job Matching Protocol which renamed as Keeper Network.'}
       />
       <StyledBody>
         <StyledTitle>
           <StyledBodyTitle2>DeFi v3</StyledBodyTitle2>
           <StyledBodyTitle>Keeper Finance</StyledBodyTitle>
           <StyledBodyTitle2>An Advanced Keeper Network</StyledBodyTitle2>
-          <StyledBodyTitle3>Keeper Finance is a decentralized finance protocol that is inspired by job matching protocol Keep2r which is DeFi version 3.0.
-          It is designed to be a lite version of Keep2r and is a more flexible and profitable protocol.</StyledBodyTitle3>
+          <StyledBodyTitle3>Keeper Finance is a decentralized finance protocol that is inspired by job matching protocol Keep2r which is DeFi v3.0.It is designed to be a lite version of Keeper and is more flexible and profitable protocol.</StyledBodyTitle3>
           <span>
             <Button href="https://app.keeper.finance/" rel="noopener noreferrer">Keeper App</Button>
             <Button href="https://swap.keeper.finance/" rel="noopener noreferrer">Keeper Swap</Button>
-            <Button href="https://snapshot.page/#/keeperfi.eth" rel="noopener noreferrer">Keeper Gov</Button>
+            <Button href="https://gov.keeper.finance" rel="noopener noreferrer">Keeper Gov</Button>
             <Button href="https://feed.keeper.finance/" rel="noopener noreferrer">Keeper Feed</Button>
           </span>
         </StyledTitle>
@@ -273,7 +272,7 @@ const IndexPage = props => {
         </ColS>
         <ColS>
           <h2>
-            <b>KeeperFi (KFI) IEO </b>
+            <b>Keeper Finance ERC20 Token KeeperFi (KFI) IEO </b>
           </h2>
           <StyledTradeLink target="_blank">Dec - Jan</StyledTradeLink>
         </ColS>
