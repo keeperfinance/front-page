@@ -4,8 +4,8 @@ import { useStaticQuery, graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 import Layout from '../layouts'
 import SEO from '../components/seo'
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component'
-import { TrendingUp, Box, Upload, Layers, Star } from 'react-feather'
+//import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component'
+//import { TrendingUp, Box, Upload, Layers, Star } from 'react-feather'
 import 'react-vertical-timeline-component/style.min.css'
 //import Ticker from '../components/ticker'
 import BG from '../components/bg'
@@ -253,17 +253,17 @@ const IndexPage = props => {
         description={'Keeper Finance is An Advanced Keeper Network. It is DeFi v3. Keeper Finance is Working on Decentralized Job Matching Protocol which renamed as Keeper Network.'}
       />
       <StyledBody>
-        <StyledTitle>
-          <StyledBodyTitle2>DeFi v3</StyledBodyTitle2>
+        <StyledTitle><span><br /><br /></span>
+          <StyledBodyTitle2> DeFi v3.0 </StyledBodyTitle2>
           <StyledBodyTitle>Keeper Finance</StyledBodyTitle>
           <StyledBodyTitle2>An Advanced Keeper Network</StyledBodyTitle2>
-          <StyledBodyTitle3>Keeper Finance is a decentralized finance protocol that is inspired by job matching protocol Keep2r which is DeFi v3.0.It is designed to be a lite version of Keeper and is more flexible and profitable protocol.</StyledBodyTitle3>
+          <StyledBodyTitle3>Keeper Finance is a decentralized finance protocol that is inspired by job matching protocol Keep2r which is DeFi v3.0. <br />It is designed to be a lite version of Keeper and is more flexible and profitable protocol.</StyledBodyTitle3><span><br /><br /></span>
           <span>
             <Button href="https://app.keeper.finance/" rel="noopener noreferrer">Keeper App</Button>
             <Button href="https://swap.keeper.finance/" rel="noopener noreferrer">Keeper Swap</Button>
             <Button href="https://gov.keeper.finance" rel="noopener noreferrer">Keeper Gov</Button>
             <Button href="https://feed.keeper.finance/" rel="noopener noreferrer">Keeper Feed</Button>
-          </span>
+          </span><span><br /><br /></span>
         </StyledTitle>
         <StyledSectionFlex>
         <CardHalf>
@@ -568,7 +568,7 @@ const DeveloperSection = () => {
                   <b>Secure</b>
                 </h1>
                   <p>
-                  Keeper Finance is multiple and incremental security.
+                  Keeper Finance is multiple and incremental security embeded in code.
                   </p>
               </Card>
             </ColT>
@@ -578,7 +578,7 @@ const DeveloperSection = () => {
                   <b>Decentralized Finance</b>
                 </h1>
                   <p>
-                    DeFi is also called Open Finance. It is unlimited perform platform.
+                    DeFi is also called Open Finance. It is unlimited job performing platform.
                   </p>
               </Card>
             </ColT>
@@ -588,7 +588,7 @@ const DeveloperSection = () => {
                   <b>Fast & Speed</b>
                 </h1>
                   <p>
-                    Keeper Finance app is light weight design, so it is called as keeper lite.
+                    Keeper Finance app is light weight design, so it is much faster and speedy.
                   </p>
               </Card>
             </ColT>
@@ -598,7 +598,7 @@ const DeveloperSection = () => {
                   <b>No Risk</b>
                 </h1>
                   <p>
-                    Keeper jobs KFI tokens are stored cold wallet and save your time.
+                    Keeper jobs performing are totally risk free. Because it does not require to store anything.
                   </p>
               </Card>
             </ColT>
@@ -608,7 +608,7 @@ const DeveloperSection = () => {
                   <b>Earnings</b>
                 </h1>
                   <p>
-                    Do not make any effort. Easy to make money with Keeper Finance.
+                    Does not need much effort. Easy to make money with Keeper Finance.
                   </p>
               </Card>
             </ColT>
@@ -618,7 +618,7 @@ const DeveloperSection = () => {
                   <b>Smart Contract</b>
                 </h1>
                   <p>
-                    Keeper Finance app is controlled by smart contracts.
+                    Keeper Finance app is controlled by multiple smart contracts.
                   </p>
               </Card>
             </ColT>
@@ -712,7 +712,7 @@ const GoalSection = () => {
 
       <Row>
       <StyledGoal style={{ width: '100%', paddingBottom: '10px' }}>
-        <h1>Our Media Partners</h1>
+        <h1>We are Covered by Top Media</h1>
 
       </StyledGoal>
       <ColT>
@@ -738,92 +738,7 @@ const GoalSection = () => {
         <img src={Newsbtc} alt="NewsBTC" height="42"/>
       </ColT>
     </Row>
-    <Row>
-    <StyledGoal style={{ width: '100%', paddingBottom: '10px' }}>
-       <h1>Roadmap</h1>
-       <br />
-      </StyledGoal>
-        <VerticalTimeline>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgba(123, 129, 138, 0.1)', color: 'rgba(115 128 146)', borderRadius: '20px', boxShadow: 'none' }}
-            contentArrowStyle={{ borderRight: '7px solid rgba(123, 129, 138, 0.1)' }}
-            date="2020 Q4"
-            iconStyle={{ background: 'rgba(123, 129, 138)', color: '#fff' }}
-            icon={<TrendingUp />}
-          >
-            <h1 className="vertical-timeline-element-title">Development</h1>
-              <p>
-                Planning and development
-              </p>
-              <p>
-                Deployed keeper finance app
-              </p>
-              <p>
-                KFI presale starts
-              </p>
-              <p>
-                Marketing campaign
-              </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgba(123, 129, 138, 0.1)', color: 'rgba(115 128 146)', borderRadius: '20px', boxShadow: 'none' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgba(123, 129, 138, 0.1)' }}
-            date="2021 Q1"
-            iconStyle={{ background: 'rgba(123, 129, 138)', color: '#fff' }}
-            icon={<Box />}
-          >
-            <h1 className="vertical-timeline-element-title">Deployment</h1>
-              <p>
-                Deploy scaling chainlink
-              </p>
-              <p>
-                Deploy more jobs
-              </p>
-              <p>
-                Listing on top exchanges
-              </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgba(123, 129, 138, 0.1)', color: 'rgba(115 128 146)', borderRadius: '20px', boxShadow: 'none' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgba(123, 129, 138, 0.1)' }}
-            date="2021 Q2"
-            iconStyle={{ background: 'rgba(123, 129, 138)', color: '#fff' }}
-            icon={<Upload />}
-          >
-            <h1 className="vertical-timeline-element-title">Upgradement</h1>
-              <p>
-                Keeperfi app upgrade
-              </p>
-              <p>
-                Second marketing campaign
-              </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgba(123, 129, 138, 0.1)', color: 'rgba(115 128 146)', borderRadius: '20px', boxShadow: 'none' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgba(123, 129, 138, 0.1)' }}
-            date="2021 Q3"
-            iconStyle={{ background: 'rgba(123, 129, 138)', color: '#fff' }}
-            icon={<Layers />}
-          >
-            <h1 className="vertical-timeline-element-title">New Platform</h1>
-              <p>
-                Launch new version app
-              </p>
-              <p>
-                Development of borrowing, lending
-              </p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            iconStyle={{ background: 'rgba(8 165 150)', color: '#fff' }}
-            icon={<Star />}
-          />
-        </VerticalTimeline>
-      </Row>
+ 
     </StyledSectionFlex>
   )
 }
