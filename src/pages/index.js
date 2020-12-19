@@ -206,7 +206,7 @@ const IndexPage = props => {
           siteUrl
         }
       }
-      unicornImage: file(relativePath: { eq: "keeper-home.png" }) {
+      unicornImage: file(relativePath: { eq: "keeper-app.png" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {
             ...GatsbyImageSharpFluid_noBase64
@@ -738,7 +738,7 @@ const GoalSection = () => {
         <img src={Newsbtc} alt="NewsBTC" height="42"/>
       </ColT>
     </Row>
- 
+
     </StyledSectionFlex>
   )
 }
