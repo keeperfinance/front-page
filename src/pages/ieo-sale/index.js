@@ -182,27 +182,27 @@ const IndexPage = props => {
     <Layout path={props.location.pathname}>
       <BG />
       <SEO
-        title="KeeperFi KFI Pre Sale is Live | Keeper Finance"
+        title="KeeperFi KFI IEO Sale is Live"
         path={props.location.pathname}
-        description={'KeeperFi KFI Pre Sale is Live, Keeper Finance Tokens Sale is Ongoing, Join Keeper Network KFI Token Sales'}
+        description={'KeeperFi KFI IEO Sale is Live, Keeper Finance IEO Token Sale is Ongoing, Join Keeper Network KFI Token IEO Sales'}
       />
       <StyledBody>
       <StyledSectionFlex>
         <CardHalf>
           <ColS>
-            <img src={Big} alt="Bigone" height="64" style={{ padding: '4px'}}/> <img src={Kfi} alt="KFI" height="64" style={{ padding: '4px'}}/>
+            <img src={Big} alt="Bigone" height="96" style={{ padding: '4px'}}/> <img src={Kfi} alt="KFI" height="96" style={{ padding: '4px'}}/>
           </ColS>
           <ColS>
-              <b>KeeperFi (KFI) IEO </b>
-            <StyledTradeLink target="_blank">Dec - Jan</StyledTradeLink>
+              <h1>Keeper Finance ERC20 Token KeeperFi (KFI) IEO</h1>
+            <StyledTradeLink target="_blank">Tomorrow</StyledTradeLink>
           </ColS>
         </CardHalf>
       </StyledSectionFlex>
         <StyledTitle>
-          <StyledBodyTitle>KeeperFi (KFI) Pre Sale is Live</StyledBodyTitle>
+          <StyledBodyTitle>KeeperFi (KFI) IEO Sale is Live</StyledBodyTitle>
           <StyledBodyTitle2>The Most Advanced DeFi v3.0 Keeper.Finance is Supported by <a href="https://news.bitcoin.com/keeper-finance-defi-version-3-0-a-unique-job-matching-defi-protocol-public-pre-sale-starts/"><b>Bitcoin.com</b></a></StyledBodyTitle2>
           <span>
-            <Button href="https://app.bounce.finance/fixed-swap/4851" target="_blank" rel="noopener noreferrer">Join the KFI Pre-Sale</Button>
+            <Button href="/" target="_blank" rel="noopener noreferrer">Join the KFI IEO Sale</Button>
           </span>
         </StyledTitle>
         <SummarySection data={data} />
@@ -305,7 +305,7 @@ const SummarySection = () => {
           <p><b>Decimal:</b> 18</p>
           <p><b>Supply:</b> 2M</p>
           <p><b>Contract:</b> <a href="https://etherscan.io/token/0x4e59DFe7c5D34C498Cfe18f0b6dB10941d6E1A8a" target="_blank" rel="noopener noreferrer">0x4e59DFe7c5D34C498Cfe18f0b6dB10941d6E1A8a</a></p>
-          <Button href="https://app.bounce.finance/fixed-swap/4851" target="_blank" rel="noopener noreferrer"><b>Join Now</b></Button>
+          <Button href="/" target="_blank" rel="noopener noreferrer"><b>Join Now</b></Button>
         </h2>
       </CardFull>
       <CardFull>
@@ -313,12 +313,12 @@ const SummarySection = () => {
         <b> KeeperFi (KFI)</b> Token Tokenomics
       </h1>
       <p><b>Total Supply:</b> 2,000,000 KFI</p>
-      <p><b>Presale:</b>  65% KFI </p>
+      <p><b>Sale:</b>  65% KFI </p>
       <p><b>Liquidity Pool:</b>  10% KFI</p>
       <p><b>Development:</b>  10% KFI</p>
       <p><b>Marketing & Promotion:</b>  10% KFI</p>
       <p><b>Team:</b> 5% KFI (Locked for 6 month)</p>
-      <h2><Button href="https://app.bounce.finance/fixed-swap/4851" target="_blank" rel="noopener noreferrer"><b>Join the KFI Pre Sale</b></Button></h2>
+      <h2><Button href="/" target="_blank" rel="noopener noreferrer"><b>Join the KFI IEO</b></Button></h2>
       </CardFull>
     </RowLeft>
     </StyledSectionFlex>

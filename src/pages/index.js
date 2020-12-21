@@ -274,7 +274,7 @@ const IndexPage = props => {
           <h2>
             <b>Keeper Finance ERC20 Token KeeperFi (KFI) IEO </b>
           </h2>
-          <StyledTradeLink target="_blank">Dec - Jan</StyledTradeLink>
+          <StyledTradeLink target="_blank">Tomorrow</StyledTradeLink>
         </ColS>
         </CardHalf>
         </StyledSectionFlex>
