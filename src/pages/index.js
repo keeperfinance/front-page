@@ -514,11 +514,11 @@ const DeveloperSection = () => {
     <CardFull>
     <ColS>
       <h1>
-        <b>KeeperFi (KFI) Presale is Live! </b>
+        <b>KeeperFi (KFI) IEO is Live! </b>
       </h1>
     </ColS>
     <ColS>
-      <Button href="https://app.bounce.finance/fixed-swap/4851" rel="noopener noreferrer"><b>Join Now</b></Button>
+      <Button href="/" rel="noopener noreferrer"><b>Tomorrow</b></Button>
       <br />
     </ColS>
     </CardFull>
