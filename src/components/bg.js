@@ -24,17 +24,16 @@ const fallInSmall = keyframes`
 
 const StyledRed = styled.div`
   width: 100%;
-  height: 220vh;
+  height: 150vh;
   border-radius: 10vw;
   background: ${({ theme }) =>
-    `radial-gradient(50% 50% at 50% 35%, ${theme.colors.link} 0%, #FFF 100%)`};
+    `radial-gradient(50% 50% at 50% 50%, ${theme.colors.link} 0%, ${theme.backgroundColor} 100%)`};
   position: absolute;
   top: 0px;
   left: 0px;
   opacity: 0.2;
   animation: ${fallIn} 0.3s ease;
   transform: translateY(-70vh);
-
   @media (max-width: 960px) {
     animation: ${fallInSmall} 0.3s ease;
     height: 300px;
@@ -64,16 +63,16 @@ const StyledNoise = styled(BackgroundImage)`
   left: 0px;
   background-size: auto;
   background-position: center;
-  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0, 0.3)));
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0, 0.3));
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 `
 
 const BG = () => {
   const data = useStaticQuery(graphql`
     {
-      noise: file(relativePath: { eq: "ft-img.jpg" }) {
+      noise: file(relativePath: { eq: "noise.png" }) {
         childImageSharp {
-          fluid(quality: 100, maxWidth: 1920) {
+          fluid(quality: 100, maxWidth: 800) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }

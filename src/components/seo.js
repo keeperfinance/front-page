@@ -27,7 +27,7 @@ function SEO({ description, lang, title, path }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const uniTitle = 'Omega Protocol | ' + title
+  const uniTitle = 'Keeper Finance | ' + title
 
   return (
     <Helmet
@@ -50,8 +50,8 @@ function SEO({ description, lang, title, path }) {
       <meta property="og:image" content={`${site.siteMetadata.siteUrl}${path ? path : '/images/'}twitter-card.jpg`} />
 
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:creator" content="@omegadefi"></meta>
-      <meta name="twitter:site" content="@omegadefi" />
+      <meta name="twitter:creator" content="@KeeperFinance"></meta>
+      <meta name="twitter:site" content="@KeeperFinance" />
       <meta property="og:image" content={`${site.siteMetadata.siteUrl}${path ? path : '/images/'}twitter-card.jpg`} />
 
       <link rel="alternate" type="application/rss+xml" href="/rss.xml" />
