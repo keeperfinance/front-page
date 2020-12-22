@@ -194,7 +194,7 @@ const IndexPage = props => {
           </ColS>
           <ColS>
               <h1>Keeper Finance ERC20 Token KeeperFi (KFI) IEO</h1>
-            <StyledTradeLink target="_blank">Tomorrow</StyledTradeLink>
+            <StyledTradeLink href="https://big.one/en/trade/KFI-ETH" target="_blank" rel="noopener noreferrer">Join Now</StyledTradeLink>
           </ColS>
         </CardHalf>
       </StyledSectionFlex>
@@ -202,7 +202,7 @@ const IndexPage = props => {
           <StyledBodyTitle>KeeperFi (KFI) IEO Sale is Live</StyledBodyTitle>
           <StyledBodyTitle2>The Most Advanced DeFi v3.0 Keeper.Finance is Supported by <a href="https://news.bitcoin.com/keeper-finance-defi-version-3-0-a-unique-job-matching-defi-protocol-public-pre-sale-starts/"><b>Bitcoin.com</b></a></StyledBodyTitle2>
           <span>
-            <Button href="/" target="_blank" rel="noopener noreferrer">Join the KFI IEO Sale</Button>
+            <Button href="https://big.one/en/trade/KFI-ETH" target="_blank" rel="noopener noreferrer">Join the KFI IEO Sale</Button>
           </span>
         </StyledTitle>
         <SummarySection data={data} />
@@ -305,7 +305,7 @@ const SummarySection = () => {
           <p><b>Decimal:</b> 18</p>
           <p><b>Supply:</b> 2M</p>
           <p><b>Contract:</b> <a href="https://etherscan.io/token/0x4e59DFe7c5D34C498Cfe18f0b6dB10941d6E1A8a" target="_blank" rel="noopener noreferrer">0x4e59DFe7c5D34C498Cfe18f0b6dB10941d6E1A8a</a></p>
-          <Button href="/" target="_blank" rel="noopener noreferrer"><b>Join Now</b></Button>
+          <Button href="https://big.one/en/trade/KFI-ETH" target="_blank" rel="noopener noreferrer"><b>Join Now</b></Button>
         </h2>
       </CardFull>
       <CardFull>
@@ -313,12 +313,14 @@ const SummarySection = () => {
         <b> KeeperFi (KFI)</b> Token Tokenomics
       </h1>
       <p><b>Total Supply:</b> 2,000,000 KFI</p>
-      <p><b>Sale:</b>  65% KFI </p>
+      <p><b>Total Sale:</b>  65% KFI </p>
+      <p><b>-- Presale:</b>  15% KFI </p>
+      <p><b>-- IEO Sale:</b>  50% KFI </p>
       <p><b>Liquidity Pool:</b>  10% KFI</p>
       <p><b>Development:</b>  10% KFI</p>
       <p><b>Marketing & Promotion:</b>  10% KFI</p>
       <p><b>Team:</b> 5% KFI (Locked for 6 month)</p>
-      <h2><Button href="/" target="_blank" rel="noopener noreferrer"><b>Join the KFI IEO</b></Button></h2>
+      <h2><Button href="https://big.one/en/trade/KFI-ETH" target="_blank" rel="noopener noreferrer"><b>Join the KFI IEO</b></Button></h2>
       </CardFull>
     </RowLeft>
     </StyledSectionFlex>
