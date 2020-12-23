@@ -273,7 +273,7 @@ const IndexPage = props => {
         </ColS>
         <ColS>
           <h2>
-            <b>Keeper Finance ERC20 Token KeeperFi (KFI) IEO </b>
+            <b>Keeper Finance KeeperFi (KFI) IEO at Big.one</b>
           </h2>
           <StyledTradeLink href="/ieo-sale" title="Join KFI IEO at Big.one" rel="noopener noreferrer">Join Now</StyledTradeLink>
         </ColS>
@@ -515,7 +515,7 @@ const DeveloperSection = () => {
     <CardFull>
     <ColS>
       <h1>
-        <b>KeeperFi (KFI) IEO is Live! </b>
+        <b>KeeperFi (KFI) IEO is Live on Big.one </b>
       </h1>
     </ColS>
     <ColS>

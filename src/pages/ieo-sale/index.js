@@ -40,7 +40,7 @@ const StyledTitle = styled.div`
 
 const StyledBodyTitle = styled.h1`
   color: ${({ theme }) => theme.colors.link};
-  font-size: 64px;
+  font-size: 55px;
   margin: 0.5rem 0 0.5rem 0;
   pointer-events: none;
   white-space: wrap;
@@ -69,9 +69,8 @@ const StyledBodyTitle = styled.h1`
 
 const StyledBodyTitle2 = styled.h1`
   color: ${({ theme }) => theme.colors.link};
-  font-size: 48px;
+  font-size: 36px;
   margin: 0.5rem 0 0.5rem 0;
-  pointer-events: none;
   white-space: wrap;
   overflow-wrap: normal;
   max-width: 900px;
@@ -193,14 +192,14 @@ const IndexPage = props => {
             <a href="https://big.one/en/trade/KFI-ETH" title="KFI IEO at Big.one" target="_blank" rel="noopener noreferrer"><img src={Big} alt="Bigone" height="96" style={{ padding: '4px'}}/> <img src={Kfi} alt="KFI" height="96" style={{ padding: '4px'}}/></a>
           </ColS>
           <ColS>
-              <h1>Keeper Finance ERC20 Token KeeperFi (KFI) IEO</h1>
+              <h1>Keeper Finance KeeperFi [KFI] IEO at Big.one</h1>
             <StyledTradeLink href="https://big.one/en/trade/KFI-ETH" title="Join KFI IEO at Big.one" target="_blank" rel="noopener noreferrer">Join Now</StyledTradeLink>
           </ColS>
         </CardHalf>
       </StyledSectionFlex>
         <StyledTitle>
-          <StyledBodyTitle>KeeperFi (KFI) IEO Sale is Live</StyledBodyTitle>
-          <StyledBodyTitle2>The Most Advanced DeFi v3.0 Keeper.Finance is Supported by <a href="https://news.bitcoin.com/keeper-finance-defi-version-3-0-a-unique-job-matching-defi-protocol-public-pre-sale-starts/"><b>Bitcoin.com</b></a></StyledBodyTitle2>
+          <StyledBodyTitle>KeeperFi [KFI] IEO Sale is Live on Big.one</StyledBodyTitle>
+          <StyledBodyTitle2>The Most Advanced DeFi v3.0 Keeper.Finance is Supported by <a href="https://news.bitcoin.com/keeper-finance-defi-version-3-0-a-unique-job-matching-defi-protocol-public-pre-sale-starts/" target="_blank" rel="noopener noreferrer"><b>Bitcoin.com</b></a></StyledBodyTitle2>
           <span>
             <Button href="https://big.one/en/trade/KFI-ETH" title="Join KFI IEO at Big.one" target="_blank" rel="noopener noreferrer">Join the KFI IEO Sale</Button>
           </span>
