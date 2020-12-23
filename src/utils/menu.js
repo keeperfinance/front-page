@@ -32,8 +32,8 @@ const menu = [
         link: 'https://docs.keeper.finance/',
       },
       { name: 'Quick Start',
-        link: '/how-to-start', 
-        description: 'How to use Keeper Network' 
+        link: '/how-to-start',
+        description: 'How to use Keeper Network'
       },
       { name: 'Registry', link: 'https://docs.keeper.finance/registry' },
       { name: 'Github', link: 'https://github.com/keeperfinance' },
@@ -45,6 +45,7 @@ const menu = [
       { name: 'Blog', link: '/blog', description: 'Stay up to date on Keeper Finance' },
       { name: 'Twitter', link: 'https://twitter.com/KeeperFinance' },
       { name: 'Telegram', link: 'https://t.me/keeperfi' },
+      { name: 'Medium', link: 'https://keeperfi.medium.com' },
     ]
   },
   {

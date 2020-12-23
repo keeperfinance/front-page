@@ -184,17 +184,17 @@ const IndexPage = props => {
       <SEO
         title="KeeperFi KFI IEO Sale is Live"
         path={props.location.pathname}
-        description={'KeeperFi KFI IEO Sale is Live, Keeper Finance IEO Token Sale is Ongoing, Join Keeper Network KFI Token IEO Sales'}
+        description={'KeeperFi KFI IEO Sale is Live on Big.one Exchange, Keeper Finance IEO Token Sale is Ongoing, Join Keeper Network KFI Token IEO Sales'}
       />
       <StyledBody>
       <StyledSectionFlex>
         <CardHalf>
           <ColS>
-            <img src={Big} alt="Bigone" height="96" style={{ padding: '4px'}}/> <img src={Kfi} alt="KFI" height="96" style={{ padding: '4px'}}/>
+            <a href="https://big.one/en/trade/KFI-ETH" title="KFI IEO at Big.one" target="_blank" rel="noopener noreferrer"><img src={Big} alt="Bigone" height="96" style={{ padding: '4px'}}/> <img src={Kfi} alt="KFI" height="96" style={{ padding: '4px'}}/></a>
           </ColS>
           <ColS>
               <h1>Keeper Finance ERC20 Token KeeperFi (KFI) IEO</h1>
-            <StyledTradeLink href="https://big.one/en/trade/KFI-ETH" target="_blank" rel="noopener noreferrer">Join Now</StyledTradeLink>
+            <StyledTradeLink href="https://big.one/en/trade/KFI-ETH" title="Join KFI IEO at Big.one" target="_blank" rel="noopener noreferrer">Join Now</StyledTradeLink>
           </ColS>
         </CardHalf>
       </StyledSectionFlex>
@@ -202,7 +202,7 @@ const IndexPage = props => {
           <StyledBodyTitle>KeeperFi (KFI) IEO Sale is Live</StyledBodyTitle>
           <StyledBodyTitle2>The Most Advanced DeFi v3.0 Keeper.Finance is Supported by <a href="https://news.bitcoin.com/keeper-finance-defi-version-3-0-a-unique-job-matching-defi-protocol-public-pre-sale-starts/"><b>Bitcoin.com</b></a></StyledBodyTitle2>
           <span>
-            <Button href="https://big.one/en/trade/KFI-ETH" target="_blank" rel="noopener noreferrer">Join the KFI IEO Sale</Button>
+            <Button href="https://big.one/en/trade/KFI-ETH" title="Join KFI IEO at Big.one" target="_blank" rel="noopener noreferrer">Join the KFI IEO Sale</Button>
           </span>
         </StyledTitle>
         <SummarySection data={data} />
@@ -305,7 +305,7 @@ const SummarySection = () => {
           <p><b>Decimal:</b> 18</p>
           <p><b>Supply:</b> 2M</p>
           <p><b>Contract:</b> <a href="https://etherscan.io/token/0x4e59DFe7c5D34C498Cfe18f0b6dB10941d6E1A8a" target="_blank" rel="noopener noreferrer">0x4e59DFe7c5D34C498Cfe18f0b6dB10941d6E1A8a</a></p>
-          <Button href="https://big.one/en/trade/KFI-ETH" target="_blank" rel="noopener noreferrer"><b>Join Now</b></Button>
+          <Button href="https://big.one/en/trade/KFI-ETH" title="Join KFI IEO at Big.one" target="_blank" rel="noopener noreferrer"><b>Join Now</b></Button>
         </h2>
       </CardFull>
       <CardFull>
@@ -320,7 +320,7 @@ const SummarySection = () => {
       <p><b>Development:</b>  10% KFI</p>
       <p><b>Marketing & Promotion:</b>  10% KFI</p>
       <p><b>Team:</b> 5% KFI (Locked for 6 month)</p>
-      <h2><Button href="https://big.one/en/trade/KFI-ETH" target="_blank" rel="noopener noreferrer"><b>Join the KFI IEO</b></Button></h2>
+      <h2><Button href="https://big.one/en/trade/KFI-ETH" title="Join KFI IEO at Big.one" target="_blank" rel="noopener noreferrer"><b>Join the KFI IEO</b></Button></h2>
       </CardFull>
     </RowLeft>
     </StyledSectionFlex>
@@ -334,7 +334,7 @@ const DeveloperSection = () => {
       <StyledSectionTitle>Keeper Finance dApp is Live!
        <p>
           <span>
-          <Button href="https://app.keeper.finance/" target="_blank" rel="noopener noreferrer">Use DeFi v3 Keeper dApp</Button>
+          <Button href="https://app.keeper.finance/" rel="noopener noreferrer">Use DeFi v3 Keeper dApp</Button>
           </span></p>
      </StyledSectionTitle>
      <Row>
