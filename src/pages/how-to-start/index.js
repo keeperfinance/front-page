@@ -245,8 +245,8 @@ const SummarySection = () => {
         <h2>
           <p><b>What is Keeper Finance?</b></p>
         </h2>
-        <p>Keeper Finance is a decentralized finance protocol that is inspired by job matching protocol Keep2r which is DeFi version 3.0.
-        It is designed to be a lite version of Keep2r and is a more flexible and profitable protocol. Keeper Finance offers a decentralized platform that connects developers with projects teams to execute jobs.
+        <p>Keeper Finance is a decentralized finance protocol that is inspired by job matching protocol Keeper which is DeFi version 3.0.
+        It is designed to be a lite version of Keeper and is a more flexible and profitable protocol. Keeper Finance offers a decentralized platform that connects developers with projects teams to execute jobs.
         Keeper Finance uses a unique mechanism that ensures that jobs are executed and job takers are rewarded promptly within its blockchain ecosystem.
         To achieve this, Keeper Finance uses a job matching concept whereby job takers called Keepers register for jobs.
         These contracts (jobs) are designed to be executed by keepers and once registered can be acted upon by keepers on the Keeper Finance blockchain.</p>

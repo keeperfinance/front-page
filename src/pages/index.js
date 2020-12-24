@@ -257,7 +257,7 @@ const IndexPage = props => {
           <StyledBodyTitle2> DeFi v3.0 </StyledBodyTitle2>
           <StyledBodyTitle>Keeper Finance</StyledBodyTitle>
           <StyledBodyTitle2>An Advanced Keeper Network</StyledBodyTitle2>
-          <StyledBodyTitle3>Keeper Finance is a decentralized finance protocol that is inspired by job matching protocol Keep2r which is DeFi v3.0. <br />It is designed to be a lite version of Keeper and is more flexible and profitable protocol.</StyledBodyTitle3><span><br /><br /></span>
+          <StyledBodyTitle3>Keeper Finance is a decentralized finance protocol that is inspired by job matching protocol Keeper which is DeFi v3.0. <br />It is designed to be a lite version of Keeper and is more flexible and profitable protocol.</StyledBodyTitle3><span><br /><br /></span>
           <span>
             <Button href="/ieo-sale" title="KFI IEO at Big.one" rel="noopener noreferrer">KFI IEO Sale</Button>
             <Button href="https://app.keeper.finance/" title="Keeper App" rel="noopener noreferrer">Keeper App</Button>

@@ -12,7 +12,7 @@ const links = [
       {
         title: 'Keeper Introduction',
         link: 'https://docs.keeper.finance/',
-        description: 'Keeper Finance is a decentralized finance protocol that is inspired by job matching protocol Keep2r which is DeFi version 3.0.',
+        description: 'Keeper Finance is a decentralized finance protocol that is inspired by job matching protocol Keeper which is DeFi version 3.0.',
       },
       {
         title: 'Keeper Jobs',
