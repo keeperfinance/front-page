@@ -27,6 +27,7 @@ import Bitcoinist from '../images/partners/bitcoinist.png'
 import Ambc from '../images/partners/ambcrypto.png'
 import Coincodex from '../images/partners/cc.png'
 import Newsbtc from '../images/partners/newsbtc.png'
+import Beincrypto from '../images/partners/beincrypto.svg'
 import Big from '../images/logos/bigone.png'
 import Kfi from '../images/logos/kfi.png'
 
@@ -722,15 +723,24 @@ const GoalSection = () => {
         </a>
       </ColT>
       <ColT>
-        <a href="https://news.bitcoin.com/keeper-finance-defi-version-3-0-a-unique-job-matching-defi-protocol-public-pre-sale-starts/">
+        <a href="https://bitcoinist.com/keeper-finance-defi-version-3-0-a-unique-job-matching-defi-protocol/">
           <img src={Bitcoinist} alt="Bitcoinist" height="42"/>
         </a>
       </ColT>
       <ColT>
-        <img src={Btcm} alt="Btcm" height="42"/>
+        <a href="https://btcmanager.com/keeper-finance-ieo-launches-on-bigone-exchange/">
+          <img src={Btcm} alt="BTCManager" height="42"/>
+        </a>
       </ColT>
       <ColT>
-        <img src={Ambc} alt="AMBCrypto" height="32"/>
+        <a href="https://ambcrypto.com/keeper-finance-ieo-launches-on-bigone-exchange/">
+          <img src={Ambc} alt="AMBCrypto" height="32"/>
+        </a>
+      </ColT>
+      <ColT>
+        <a href="https://beincrypto.com/keeper-finance-ieo-launches-on-bigone-exchange/">
+          <img src={Beincrypto} alt="Beincrypto" height="36"/>
+        </a>
       </ColT>
       <ColT>
         <img src={Coincodex} alt="CoinCodex" height="42"/>
