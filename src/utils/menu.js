@@ -8,8 +8,13 @@ const menu = [
         description: 'Join keeper and start jobs'
       },
       {
+        name: 'Keeper Stake',
+        link: 'https://stake.keeper.finance',
+        description: 'Earn daily returns @1.5% from KFI pool'
+      },
+      {
         name: 'Keeper Swap',
-        link: 'https://swap.keeper.finance/#/',
+        link: 'https://swap.keeper.finance',
         description: 'ERC20 tokens swap exchange'
       },
       {

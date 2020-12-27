@@ -235,6 +235,13 @@ const IndexPage = props => {
           }
         }
       }
+      stake: file(relativePath: { eq: "stake.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1200) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
       soon: file(relativePath: { eq: "soon.png" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {
@@ -261,10 +268,10 @@ const IndexPage = props => {
           <StyledBodyTitle3>Keeper Finance is a decentralized finance protocol that is inspired by job matching protocol Keeper which is DeFi v3.0. <br />It is designed to be a lite version of Keeper and is more flexible and profitable protocol.</StyledBodyTitle3><span><br /><br /></span>
           <span>
             <Button href="/ieo-sale" title="KFI IEO at Big.one" rel="noopener noreferrer">KFI IEO Sale</Button>
-            <Button href="https://app.keeper.finance/" title="Keeper App" rel="noopener noreferrer">Keeper App</Button>
-            <Button href="https://swap.keeper.finance/" title="Keeper Swap" rel="noopener noreferrer">Keeper Swap</Button>
-            <Button href="https://gov.keeper.finance" title="Keeper Vote" rel="noopener noreferrer">Keeper Gov</Button>
-            <Button href="https://feed.keeper.finance/" title="Keeper Feed" rel="noopener noreferrer">Keeper Feed</Button>
+            <Button href="https://app.keeper.finance/" title="Keeper App">Keeper App</Button>
+            <Button href="https://stake.keeper.finance/" title="Keeper Stake">Keeper Stake</Button>
+            <Button href="https://swap.keeper.finance/" title="Keeper Swap">Keeper Swap</Button>
+            <Button href="https://gov.keeper.finance/" title="Keeper Vote">Keeper Gov</Button>
           </span><span><br /><br /></span>
         </StyledTitle>
         <StyledSectionFlex>
@@ -665,22 +672,29 @@ const ProductsSection2 = props => {
           href="https://app.keeper.finance/" target="_blank" rel="noopener noreferrer"
           image={props.data.keeper.childImageSharp.fluid}
           desc={'Keeper App'}
-          backgroundColor={'#267bee'}
-          color={'white'}
+          backgroundColor={'rgba(42, 46, 51, 0.2)'}
+          color={'#006cff'}
+        />
+        <MiniCard
+          href="https://stake.keeper.finance/" target="_blank" rel="noopener noreferrer"
+          image={props.data.swap.childImageSharp.fluid}
+          desc={'Keeper Stake'}
+          backgroundColor={'rgba(42, 46, 51, 0.2)'}
+          color={'#006cff'}
         />
         <MiniCard
           href="https://swap.keeper.finance/" target="_blank" rel="noopener noreferrer"
           image={props.data.swap.childImageSharp.fluid}
           desc={'Keeper Swap'}
-          backgroundColor={'#267bee'}
-          color={'white'}
+          backgroundColor={'rgba(42, 46, 51, 0.2)'}
+          color={'#006cff'}
         />
         <MiniCard
           href="https://gov.keeper.finance/" target="_blank" rel="noopener noreferrer"
           image={props.data.gov.childImageSharp.fluid}
           desc={'Keeper Governance'}
-          backgroundColor={'#267bee'}
-          color={'white'}
+          backgroundColor={'rgba(42, 46, 51, 0.2)'}
+          color={'#006cff'}
         />
       </StyledSectionFlex>
     </>
