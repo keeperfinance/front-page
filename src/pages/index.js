@@ -267,26 +267,25 @@ const IndexPage = props => {
           <StyledBodyTitle2>An Advanced Keeper Network</StyledBodyTitle2>
           <StyledBodyTitle3>Keeper Finance is a decentralized finance protocol that is inspired by job matching protocol Keeper which is DeFi v3.0. <br />It is designed to be a lite version of Keeper and is more flexible and profitable protocol.</StyledBodyTitle3><span><br /><br /></span>
           <span>
-            <Button href="/ieo-sale" title="KFI IEO at Big.one" rel="noopener noreferrer">KFI IEO Sale</Button>
             <Button href="https://app.keeper.finance/" title="Keeper App">Keeper App</Button>
             <Button href="https://stake.keeper.finance/" title="Keeper Stake">Keeper Stake</Button>
             <Button href="https://swap.keeper.finance/" title="Keeper Swap">Keeper Swap</Button>
             <Button href="https://gov.keeper.finance/" title="Keeper Vote">Keeper Gov</Button>
           </span><span><br /><br /></span>
         </StyledTitle>
-        <StyledSectionFlex>
-        <CardHalf>
+        <RowCen style={{ textAlign: 'center', width: '600px'}}>
+        <CardFull>
         <ColS>
-            <a href="https://big.one/en/trade/KFI-ETH" title="KFI IEO at Big.one" target="_blank" rel="noopener noreferrer"><img src={Big} alt="Bigone" height="70" style={{ padding: '4px'}}/> <img src={Kfi} alt="KFI" height="70" style={{ padding: '4px'}}/></a>
+          <h1>
+            <b>Join the Keeeper Stake and Earn daily returns @1.5% from xKFI pool </b>
+          </h1>
         </ColS>
         <ColS>
-          <h2>
-            <b>Keeper Finance KeeperFi (KFI) IEO at Big.one</b>
-          </h2>
-          <StyledTradeLink href="/ieo-sale" title="Join KFI IEO at Big.one" rel="noopener noreferrer">Join Now</StyledTradeLink>
+          <Button href="https://app.keeper.finance/" title="Join xKFI pool"><b>Join Keeper Pool Now</b></Button>
+          <br />
         </ColS>
-        </CardHalf>
-        </StyledSectionFlex>
+        </CardFull>
+        </RowCen>
         <SummarySection data={data} />
         <DeveloperSection data={data} />
         <ProductsSection2 data={data} />
@@ -508,7 +507,7 @@ const SummarySection = props => {
           Read more
         </Button>
          <span>
-          <Button href="https://app.keeper.finance/" rel="noopener noreferrer">Use Keeper Finance App</Button>
+          <Button href="https://app.keeper.finance/">Use Keeper Finance App</Button>
           </span>
       </StyledImgSection>
     </StyledSectionFlex>
@@ -523,11 +522,11 @@ const DeveloperSection = () => {
     <CardFull>
     <ColS>
       <h1>
-        <b>KeeperFi (KFI) IEO is Live on Big.one </b>
+        <b>Swap your ERC20 tokens with Keeper Swap </b>
       </h1>
     </ColS>
     <ColS>
-      <Button href="/ieo-sale" title="Join KFI IEO at Big.one" rel="noopener noreferrer"><b>Join KFI IEO</b></Button>
+      <Button href="https://swap.keeper.finance/" title="Keeper Swap"><b>Swap Exchange</b></Button>
       <br />
     </ColS>
     </CardFull>
@@ -536,7 +535,7 @@ const DeveloperSection = () => {
       <StyledSectionTitle>Build with Keeper
        <p>
           <span>
-          <Button href="https://app.keeper.finance/" rel="noopener noreferrer">Use Keeper Finance Build Future</Button>
+          <Button href="https://app.keeper.finance/">Use Keeper Finance Build Future</Button>
           </span></p>
      </StyledSectionTitle>
 

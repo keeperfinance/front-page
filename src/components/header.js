@@ -237,7 +237,7 @@ const Header = props => {
         <StyledButton type="button" onClick={toggleDarkMode}>
           {darkMode ? <Sun size={20} /> : <Moon size={20} />}
         </StyledButton>
-        {props.path !== undefined && <StyledTradeLink href="/ieo-sale">IEO Sale</StyledTradeLink>}
+        {props.path !== undefined && <StyledTradeLink href="https://app.keeper.finance">App</StyledTradeLink>}
       </StyledNav>
     </StyledHeader>
   )

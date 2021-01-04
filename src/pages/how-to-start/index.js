@@ -295,7 +295,7 @@ const SummarySection = () => {
         </h3>
         <p>After 24 hours complete your activate bonds button is open. Click Activate Bonds.</p>
         <p><img src={Activate} alt="Activate Bonds" /></p>
-        <p>Select the Jobs from KP2R Network jobs list.</p>
+        <p>Select the Jobs from Keeper Finance jobs list.</p>
       </CardFull>
       <CardFull>
         <h3>
